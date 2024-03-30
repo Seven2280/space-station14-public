@@ -7,7 +7,7 @@ ent-MagazineLightRifleGolden = {ent-BaseMagazineLightRifle}
     .desc = {ent-BaseMagazineLightRifle.desc}
     .suffix = ЗолотойАК
 ent-CartridgeLightRifleGolden = {ent-CartridgeLightRifle}
-    .desc = {BaseCartridgeLightRifle.desc}
+    .desc = {ent-BaseCartridgeLightRifle.desc}
     .suffix = Золотой
 
 ent-GoldenSpoon = золотая ложка
@@ -34,7 +34,7 @@ ent-PresentableBox = презентабельная коробка
     .desc = Чёрная, презентабельная коробка, с выгриварованным символом мощи Империи на крышке.
 ent-PresentableRag = шикарный карманный платок
     .desc = Предмет гардероба, предназначенный для вытирания капель жидкости с костюма и размещения под мягким местом на грязных скамейках. Сделан из не съедобных волокон.
-ent-DeliciousRag = вкусный карманный платок
+ent-DeliciousPresentableRag = вкусный карманный платок
     .desc = Шикарная еда, предназначенная для представителей расы моли. Вкус... неописуем.
 
 ent-FoodPresentableTinMRECaviar = баночка космической икры

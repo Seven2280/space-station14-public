@@ -8,7 +8,7 @@
   - type: Sprite
     sprite: Imperial/TFG/GoldenLife/presentableTin.rsi
   - type: Food
-    trash: FoodTinMRECaviarTrash
+    trash: FoodPresentableTinMRECaviarTrash
   - type: FlavorProfile
     flavors:
     - food
@@ -25,7 +25,7 @@
 
 # Edible rag
 - type: entity
-  id: DeliciousRag
+  id: DeliciousPresentableRag
   parent: PresentableRag
   name: delicious rag
   description: A delicacy for representatives of the moth race!
