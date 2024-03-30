@@ -32,5 +32,8 @@
         - PlushieBarmem
         - PlushieCoroner
         - PlushieIAA
+        - PlushieHOP
+        - PlushieNuclearmedic
+        - PlushiePassenger
       chance: 0.65
       offset: 0.10
