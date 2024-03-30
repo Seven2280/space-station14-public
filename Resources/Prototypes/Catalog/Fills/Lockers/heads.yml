@@ -57,6 +57,8 @@
       - id: MedalCase
       - id: ControlModsuitMagnate #Edited in Imperial Space by @sentryprimies in the name of modsuits
       - id: ClothingHeadHatCapcap
+      - id: ClothingUniformJumpsuitCaptainAlt #ImperialClothes Водолазки капитана
+      - id: ClothingUniformJumpskirtCaptainAlt #ImperialClothes Водолазки капитана
 
 - type: entity
   id: LockerCaptainFilled
@@ -91,6 +93,8 @@
       - id: MedalCase
       - id: ClothingHeadHatCapcap
       - id: ControlModsuitMagnate #Edited in Imperial Space by @sentryprimies in the name of modsuits
+      - id: ClothingUniformJumpsuitCaptainAlt #ImperialClothes Водолазки капитана
+      - id: ClothingUniformJumpskirtCaptainAlt #ImperialClothes Водолазки капитана
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
