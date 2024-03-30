@@ -1,46 +1,49 @@
 - type: ertCall
-  id: Standart-ERT-Small
+  id: Old-Small-ERT
   path: "Maps/Shuttles/ERTPresets/dartERTSmall.yml"
   desc: "1 лидер, 3 бойца, 1 инж, 1 мед"
 
 - type: ertCall
-  id: Standart-ERT-Medium
+  id: Old-Medium-ERT
   path: "Maps/Shuttles/ERTPresets/dartERTMedium.yml"
   desc: "1 лидер, 6 бойцов, 1 инж, 1 мед"
 
 - type: ertCall
-  id: Standart-ERT-BIG
+  id: Old-BIG-ERT
   path: "Maps/Shuttles/ERTPresets/dartERTBig.yml"
   desc: "1 Лидер, 12 бойцов, 2 инж, 2 мед, 1 уборщик"
 
 - type: ertCall
-  id: Standart-CBURN
+  id: Old-CBURN
   path: "Maps/Shuttles/ERTPresets/dartCBURN.yml"
   desc: "1 лидер, 6 бойцов, 1 мед"
 
 - type: ertCall
-  id: ERT-Small-Security
+  id: Predation-Small-Security-ERT
   path: "Maps/Shuttles/ERTPresets/ertDagger.yml"
   desc: "1 лидер, 4 бойца"
 
 - type: ertCall
-  id: ERT-Janitor
+  id: Janitor-ERT
   path: "Maps/Shuttles/ERTPresets/junitorERT.yml"
   desc: "1 лидер, 4 уборщика"
 
 - type: ertCall
-  id: ERT-Small
-  path: "Maps/Shuttles/ERTPresets/newERTSmall.yml"
-  desc: "1 лидер, 3 бойца, 1 медик, 1 инженер"
-
-- type: ertCall
-  id: ERT-Big
-  path: "Maps/Shuttles/ERTPresets/newERTBig.yml"
-  desc: "1 лидер, 12 бойцов, 2 медика, 2 инженера, 2 уборщика"
-
-- type: ertCall
-  id: ERT-Clining
+  id: Clining-ERT
   path: "Maps/Shuttles/ERTPresets/cliningERT.yml"
   desc: "1 лидер, 4 уборщика, дорогой шаттл"
 
+- type: ertCall
+  id: Predation-Small-ERT
+  path: "Maps/Shuttles/ERTPresets/predationERTSmall.yml"
+  desc: "1 лидер, 3 бойца, 1 медик, 1 инженер"
 
+- type: ertCall
+  id: Predation-BIG-ERT
+  path: "Maps/Shuttles/ERTPresets/predationERTBig.yml"
+  desc: "1 лидер, 12 бойцов, 2 медика, 2 инженера, 2 уборщика"
+
+- type: ertCall
+  id: Predation-CBURN
+  path: "Maps/Shuttles/ERTPresets/predationCBURN.yml"
+  desc: "1 лидер, 10 персонала РХБЗЗ, шаттл-мед лаболатория"
