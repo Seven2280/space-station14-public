@@ -1,0 +1,524 @@
+- type: entity
+  id: AmbientMaints
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/decrepit_maintenance.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientMaints2
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/generic_maintenance.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientEngine
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/decrepit_engine.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientFireLarge
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/fire_large.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientBeachForest
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/beach_forest.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientCave
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/generic_cave.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientShip
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/generic_ship.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientBridge
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: 2
+    range: 15
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/hi_tech_bridge.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientIceWastes
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 20
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/ice_wastes.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientIceWastes2
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 20
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/ice_wastes_alt.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+# - type: entity
+#   id: Ambientlava_wastes
+#   components:
+#   - type: Sprite
+#     sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+#     state: ambient
+#     layers:
+#         - state: "ambient"
+#           shader: unshaded
+#     drawdepth: Objects
+#   - type: AmbientSound
+#     volume: -5
+#     range: 11
+#     sound:
+#       path: /Audio/Imperial/Hephaestus/Ambience/lava_wastes.ogg
+#   - type: TimedDespawn
+#     lifetime: 40
+
+- type: entity
+  id: Ambientrock_wastes
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 20
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/rock_wastes.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientSand_wastes
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 20
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/sand_wastes.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: AmbientServer
+  components:
+  - type: Sprite
+    sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+    state: ambient
+    layers:
+        - state: "ambient"
+          shader: unshaded
+    drawdepth: Objects
+  - type: AmbientSound
+    volume: -5
+    range: 11
+    sound:
+      path: /Audio/Imperial/Hephaestus/Ambience/server1.ogg
+  - type: TimedDespawn
+    lifetime: 40
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientMaints
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientMaints
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientMaints2
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientMaints2
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientEngine
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientEngine
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientFireLarge
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientFireLarge
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientBeachForest
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientBeachForest
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientCave
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientCave
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+  
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientShip
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientShip
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientBridge
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientBridge
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientIceWastes
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientIceWastes
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientIceWastes2
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientIceWastes2
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientrock_wastes
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - Ambientrock_wastes
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientSand_wastes
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientSand_wastes
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
+
+- type: entity
+  name: Периодический Filler
+  id: TimedSpawnerAmbientServer
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - sprite: Imperial/HephaestusStation/Decor/ambient.rsi
+          state: spawner
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - AmbientServer
+      chance: 0.5
+      intervalSeconds: 85
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1
