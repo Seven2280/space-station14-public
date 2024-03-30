@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleSonaShoulder
+  name: neck S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Mantle.rsi
+  - type: Clothing
+    sprite: Imperial/Sona/Mantle.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.90

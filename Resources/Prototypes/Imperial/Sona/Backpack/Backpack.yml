@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackSona
+  name: Backpack S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Backpack.rsi
+  - type: Storage
+    capacity: 150

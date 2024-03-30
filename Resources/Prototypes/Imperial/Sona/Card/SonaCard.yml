@@ -1,0 +1,14 @@
+- type: entity
+  parent: CentcomIDCard
+  id: SonaIDCard
+  name: ID card S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+    - type: Sprite
+      sprite: Imperial/Sona/Card.rsi
+      state: SonaCard
+    - type: Item
+      heldPrefix: blue
+    - type: IdCard
+      jobTitle: S-o.N.A

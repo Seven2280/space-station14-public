@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSonaHead
+  name: jumsuit S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/SonaHead.rsi
+  - type: Clothing
+    sprite: Imperial/Sona/SonaHead.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9

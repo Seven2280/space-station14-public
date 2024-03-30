@@ -1,0 +1,10 @@
+- type: entity
+  id: BannerSona
+  parent: BannerBase
+  name: banner S-o.N.A.
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Banner.rsi
+    state: SonaBanner

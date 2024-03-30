@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretSona
+  name: beret S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Beret.rsi
+  - type: Clothing
+    sprite: Imperial/Sona/Beret.rsi
+  - type: Tag
+    tags:
+    - ClothMade

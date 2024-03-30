@@ -1,0 +1,29 @@
+#This is base PDA for Imperial prototypes.
+#Use this, when you want to add new PDA. Just load sprites in /Imperial/customPDA.rsi
+#And make prototype with parent from this.
+#Good Luck.
+
+- type: entity
+  abstract: true
+  id: BaseCustomPDA
+  parent: BasePDA
+  components:
+  - type: Sprite
+    sprite: Imperial/customPDA.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Icon
+    sprite: Imperial/customPDA.rsi
+    state: pda
+  - type: Pda
+#    id: ID card inside this PDA
+    state: pda
+  - type: PdaBorderColor

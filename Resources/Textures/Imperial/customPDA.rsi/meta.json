@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-4.0",
-    "copyright": "Made for Imperial Space project. Autor: flazer",
+    "copyright": "Made for Imperial Space project. Autor's: flazer (pda-made), vladegeg (pda-sona)",
     "size": {
         "x": 32,
         "y": 32
@@ -29,7 +29,21 @@
             "name": "light_overlay"
         },
         {
+            "name": "pda"
+        },
+        {
             "name": "pda-made"
+        },
+        {
+            "name": "pda-sona",
+            "delays": [
+                [
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8
+                ]
+            ]
         }
     ]
 }

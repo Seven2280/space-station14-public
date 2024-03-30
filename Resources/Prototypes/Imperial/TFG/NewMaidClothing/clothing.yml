@@ -106,24 +106,11 @@
 #Maid PDA
 - type: entity
   id: JanimaidPDA
-  parent: BasePDA
+  parent: BaseCustomPDA
   name: janimaid PDA
   description: PDA of a highly qualified worker.
   components:
-  - type: Sprite
-    sprite: Imperial/TFG/NewMaidClothing/maidPDA.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
   - type: Icon
-    sprite: Imperial/TFG/NewMaidClothing/maidPDA.rsi
     state: pda-made
   - type: Pda
     id: MaidIDCard

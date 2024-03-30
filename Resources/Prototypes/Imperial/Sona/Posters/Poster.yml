@@ -1,0 +1,54 @@
+- type: entity
+  parent: PosterBase
+  id: PosterSonaOne
+  name: information Sona
+  suffix: Sona
+  description: information text
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Posters.rsi
+    state: PosterOne
+
+- type: entity
+  parent: PosterBase
+  id: PosterSonaTwo
+  name: security Sona
+  suffix: Sona
+  description: security text
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Posters.rsi
+    state: PosterTwo
+
+- type: entity
+  parent: PosterBase
+  id: PosterSonaTree
+  name: engineer Sona
+  suffix: Sona
+  description: engineering text
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Posters.rsi
+    state: PosterThree
+
+- type: entity
+  parent: PosterBase
+  id: PosterSonaFour
+  name: scientist Sona
+  suffix: Sona
+  description: scientistic text
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Posters.rsi
+    state: PosterFour
+
+- type: entity
+  parent: PosterBase
+  id: PosterSonaFive
+  name: "S-o.N.A - EXCORT"
+  suffix: Sona
+  description:
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Posters.rsi
+    state: PosterFive

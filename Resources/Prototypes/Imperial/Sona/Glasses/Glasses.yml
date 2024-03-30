@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesSona
+  name: glasses S-o.N.A
+  suffix: Sona
+  description: Sona
+  components:
+  - type: Sprite
+    sprite: Imperial/Sona/Glasses.rsi
+  - type: Clothing
+    sprite: Imperial/Sona/Glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: ShowSecurityIcons
