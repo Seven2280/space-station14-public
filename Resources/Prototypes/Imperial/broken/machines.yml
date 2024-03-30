@@ -1,0 +1,59 @@
+- type: entity
+  parent: BaseStructure
+  id: BaseStructureBroken
+  name: BaseStructureBroken
+  description: BaseStructureBroken
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: InteractionOutline
+  - type: Rotatable
+  - type: Anchorable
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Sprite
+    sprite: Imperial/broken/thruster.rsi
+    state: base
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metalbreak.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 5
+            max: 5
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseStructureBroken
+  id: StructureBrokenThruster
+  name: broken thruster
+  description: broken thruster
+  components:
+  - type: Sprite
+    sprite: Imperial/broken/thruster.rsi
+    state: base
+
+- type: entity
+  parent: BaseStructureBroken
+  id: StructureBrokenGyroscope
+  name: broken gyroscope
+  description: broken gyroscope
+  components:
+  - type: Sprite
+    sprite: Imperial/broken/gyroscope.rsi
+    state: base
