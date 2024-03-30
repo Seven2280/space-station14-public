@@ -52,6 +52,15 @@
         },
         {
             "name": "plushie_coroner"
+        },
+        {
+            "name": "plushie_HOP"
+        },
+        {
+            "name": "plushie_nuclearmedic"
+        },
+        {
+            "name": "plushie_passenger"
         }
       ]
 }

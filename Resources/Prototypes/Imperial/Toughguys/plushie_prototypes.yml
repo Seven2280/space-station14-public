@@ -272,3 +272,33 @@
   - type: Sprite
     sprite: Imperial/Toughguys
     state: plushie_coroner
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieHOP
+  name: Evelin
+  description: In the red code, you definitely should not approach it...
+  components:
+  - type: Sprite
+    sprite: Imperial/Toughguys
+    state: plushie_HOP
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieNuclearmedic
+  name: Jacques
+  description: Every time your comrade-in-arms needs to have a broken arm sewn on, remember him
+  components:
+  - type: Sprite
+    sprite: Imperial/Toughguys
+    state: plushie_nuclearmedic
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushiePassenger
+  name: Vasya
+  description: One of the leaders of the grey movement. Why does he need insulated gloves?
+  components:
+  - type: Sprite
+    sprite: Imperial/Toughguys
+    state: plushie_passenger
