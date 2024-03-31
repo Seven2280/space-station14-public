@@ -3,6 +3,7 @@
   id: ClothingUniformJumpsuitMinuteManBase
   name: filler
   nospawn: true
+  abstract: true
   components:
   - type: TemperatureProtection
     coefficient: 0.4 #cave survival
