@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesSona
-  name: glasses S-o.N.A
-  suffix: Sona
-  description: Sona
+  name: Safety glasses S-o.N.A
+  suffix: S-o.N.A
+  description: Stylish glasses of S-o.N.A. AI Dynamics corporation, which protect against flashes and have a built-in visor.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Glasses.rsi

@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCapSona
-  name: cap S-o.N.A
-  suffix: Sona
-  description: Sona
+  name: Cap S-o.N.A
+  suffix: S-o.N.A
+  description: The standard cap of employees of S-o.N.A. AI Dynamics Corporation.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Cap.rsi

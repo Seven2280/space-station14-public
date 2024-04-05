@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSona
-  name: belt S-o.N.A
-  suffix: Sona
-  description: Sona
+  name: Belt S-o.N.A
+  suffix: S-o.N.A
+  description: The standard security belt of the S-o.N.A. AI Dynamics corporation.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Belt.rsi

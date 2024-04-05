@@ -2,8 +2,8 @@
   parent: ClothingBackpack
   id: ClothingBackpackSona
   name: Backpack S-o.N.A
-  suffix: Sona
-  description: Sona
+  suffix: S-o.N.A
+  description: Backpack with additional storage of S-o.N.A. AI Dynamics Corporation.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Backpack.rsi

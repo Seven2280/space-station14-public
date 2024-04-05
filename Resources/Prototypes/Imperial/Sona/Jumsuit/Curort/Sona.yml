@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSonaCurort
+  name: S-o.N.A Resort suit
+  suffix: S-o.N.A
+  description: A beautiful set of clothes, which depicts a modern high-tech pattern.
+  components:
+    - type: Sprite
+      sprite: Imperial/Sona/SonaCurort.rsi
+    - type: Clothing
+      sprite: Imperial/Sona/SonaCurort.rsi

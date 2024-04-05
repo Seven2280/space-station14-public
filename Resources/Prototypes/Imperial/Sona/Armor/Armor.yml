@@ -2,8 +2,8 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterSonaArmor
   name: Body armor S-o.N.A
-  suffix: Sona
-  description: Body armor of the S-o.N.A corporation. AI Dynamics, created to bring maximum comfort to the wearer, while also providing decent protection.
+  suffix: S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Armor.rsi

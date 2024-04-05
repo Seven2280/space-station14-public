@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSona
-  name: beret S-o.N.A
-  suffix: Sona
-  description: Sona
+  name: Beret S-o.N.A
+  suffix: S-o.N.A
+  description: The stylish beret of S-o.N.A. AI Dynamics Corporation.
   components:
   - type: Sprite
     sprite: Imperial/Sona/Beret.rsi
