@@ -241,6 +241,9 @@
         },
         {
         "name": "box_mime"
+        },
+        {
+            "name": "nano_label"
         }
     ]
 }

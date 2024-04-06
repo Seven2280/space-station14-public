@@ -82,6 +82,9 @@
   name: utensils box
   description: A special utensils for big shot.
   components:
+  - type: Sprite
+    layers:
+    - state: box_hug
   - type: StorageFill
     contents:
       - id: GoldenFork
