@@ -134,3 +134,39 @@
     sprite: Imperial/CaptainExtraDrip/sheriff/gloves.rsi
   - type: Clothing
     sprite: Imperial/CaptainExtraDrip/sheriff/gloves.rsi
+  
+- type: entity
+  id: Capwhitecloack
+  parent: ClothingNeckBase
+  name: The Captain's White cloak
+  description: Its bright white light dazzles with its greatness.
+  components:
+  - type: Sprite
+    sprite: Imperial/CaptainExtraDrip/white/capwhitecloack.rsi
+
+- type: entity
+  id: Capwhitebackpack
+  parent: ClothingBackpack
+  name: White Captain Backpack
+  description: Is it your imagination, or is there a stain on it?
+  components:
+  - type: Sprite
+    sprite: Imperial/CaptainExtraDrip/white/capwhitebackpack.rsi
+
+- type: entity
+  id: CapSheriffcloack
+  parent: ClothingNeckBase
+  name: The Captain's Sheriff cloak
+  description: He exudes severity!
+  components:
+  - type: Sprite
+    sprite: Imperial/CaptainExtraDrip/sheriff/capsheriffcloack.rsi
+
+- type: entity
+  id: CapSheriffbackpack
+  parent: ClothingBackpack
+  name: Sheriff Captain Backpack
+  description: There are traces of those who disobeyed!
+  components:
+  - type: Sprite
+    sprite: Imperial/CaptainExtraDrip/sheriff/capsheriffbackpack.rsi
