@@ -20,6 +20,9 @@
       - id: PlushieSurgeon
       - id: PlushieBarmem
       - id: PlushieCoroner
+      - id: PlushieHOP
+      - id: PlushieNuclearmedic
+      - id: PlushiePassenger
 
 - type: cargoProduct
   id: FunPlushieCommunity
