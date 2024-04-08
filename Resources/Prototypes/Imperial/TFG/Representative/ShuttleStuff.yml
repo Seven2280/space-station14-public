@@ -38,11 +38,11 @@
     contents:
       - id: CuttleryBox
       - id: FoodPresentableTinMRECaviar
-      - id: DeliciousRag
+      - id: DeliciousPresentableRag
       - id: DrinkWaterBottleFull
       - id: FoodPresentableTinMRECaviar
         prob: 0.5
-      - id: DeliciousRag
+      - id: DeliciousPresentableRag
         prob: 0.5
       - id: FoodPizzaGolden
         prob: 0.3

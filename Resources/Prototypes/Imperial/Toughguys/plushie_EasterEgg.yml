@@ -19,7 +19,7 @@
     price: 100
 
 - type: reagent
-  id: ArmenianStuff
+  id: ArmenianStuffReagent
   name: reagent-name-armenianStuff
   desc: reagent-desc-armenianStuff
   group: Narcotic
@@ -86,7 +86,7 @@
           min: 20
 
 - type: entity
-  id: ArmenianStuffBottle
+  id: ArmenianStuff
   parent: BaseChemistryEmptyBottle
   name: Armenian Stuff
   description: Kum'Ar's secret recipe, adapted by the Fox God.
@@ -102,7 +102,7 @@
       drink:
         maxVol: 60
         reagents:
-          - ReagentId: ArmenianStuff
+          - ReagentId: ArmenianStuffReagent
             Quantity: 60
   - type: SolutionContainerVisuals
     maxFillLevels: 6

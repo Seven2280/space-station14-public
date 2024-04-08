@@ -8,7 +8,7 @@ reagent-physical-desc-armenianStuff = шашлычное
 ent-PillThrivevin = Таблетка трайвонина
     .desc = Та самая таблетка!
 
-ent-ArmenianStuffBottle = бутылочка "Армянское счастье" (с)
+ent-ArmenianStuff = бутылочка "Армянское счастье" (с)
     .desc = Секретный рецепт бога Кум'Ара, доработанный Лисьим Богом.
 
 ent-DrinkCafeRaf = Настоящий раф
