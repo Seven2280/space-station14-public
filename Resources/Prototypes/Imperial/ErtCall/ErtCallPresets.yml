@@ -39,6 +39,11 @@
   desc: "1 лидер, 3 бойца, 1 медик, 1 инженер"
 
 - type: ertCall
+  id: Predation-Medium-ERT
+  path: "Maps/Shuttles/ERTPresets/predationERTMedium.yml"
+  desc: "1 лидер, 7 бойцов, 1 медик, 1 инженер, нет клонирования."
+
+- type: ertCall
   id: Predation-BIG-ERT
   path: "Maps/Shuttles/ERTPresets/predationERTBig.yml"
   desc: "1 лидер, 12 бойцов, 2 медика, 2 инженера, 2 уборщика"
