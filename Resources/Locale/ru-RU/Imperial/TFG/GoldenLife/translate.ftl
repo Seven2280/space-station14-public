@@ -10,6 +10,15 @@ ent-CartridgeLightRifleGolden = {ent-CartridgeLightRifle}
     .desc = {ent-BaseCartridgeLightRifle.desc}
     .suffix = Золотой
 
+ent-WeaponPistolMk58Golden = золотой МК-58
+    .desc = Потому что Я патриот!
+ent-WeaponPistolMk58GoldenNonlethal = { ent-WeaponPistolMk58Golden }
+    .desc = { ent-WeaponPistolMk58Golden.desc }
+    .suffix = Не летальный
+ent-WeaponPistolMk58GoldenEmpty = { ent-WeaponPistolMk58Golden }
+    .desc = { ent-WeaponPistolMk58Golden.desc }
+    .suffix = Пустой
+
 ent-GoldenSpoon = золотая ложка
     .desc = Некоторые дети рождаются с ними во рту. Это единственный способ получить такие редкие ложки.
 ent-GoldenFork = золотая вилка
@@ -36,6 +45,8 @@ ent-PresentableRag = шикарный карманный платок
     .desc = Предмет гардероба, предназначенный для вытирания капель жидкости с костюма и размещения под мягким местом на грязных скамейках. Сделан из не съедобных волокон.
 ent-DeliciousPresentableRag = вкусный карманный платок
     .desc = Шикарная еда, предназначенная для представителей расы моли. Вкус... неописуем.
+ent-ToolboxPresentable = вычурный ящик для инструментов
+    .desc = Чёрт! Это ящик для инструментов ОЧЕНЬ важной шишки.
 
 ent-FoodPresentableTinMRECaviar = баночка космической икры
     .desc = Мало кто знает, но штрафы отдела карго созданы, что бы покрывать стоимость этой икры. Если вы обладаете ею, значит ваш статус необычайно высок.
@@ -45,3 +56,27 @@ ent-FoodPizzaGolden = золотая пицца
     .desc = Ты богатый, больной ублюдок.
 ent-FoodPizzaGoldenSlice = кусочек золотой пиццы
     .desc = Кусочек слёз научного работника... он не сможет соскребсти отсюда золото.
+ent-GoldenWatermellon = золоторбуз
+    .desc = Какой-то помешанный на золоте псих вырастил эту культуру... Не вкусно. Но снаружи это чистое золото.
+ent-GoldenWatermellonTrash = обломок золоторбуза
+    .desc = Лишь кожура от золотого арбуза... всё ещё чистое золото.
+    .suffix = Расколотый
+
+ent-GoldenThruster = Premium двигатель
+    .desc = Ускоритель, выполненный из золота и драгоценных камней. Заставляет шаттл двигаться.
+ent-GoldenThrusterUnanchored = { ent-GoldenThruster }
+    .desc = { ent-GoldenThruster.desc }
+    .suffix = незакреплён
+
+ent-PremiumAkKit = Premium набор "АК"
+    .desc = Коробка из под широко известного в узких кругах набора с золотым АК.
+    .suffix = Заполненный, Премиум
+ent-FoodPresentablePizzaBoxFilled = Premium пицца "Высший свет"
+    .desc = Популярное в высшем обществе блюдо, которое принято есть, пристально смотря в глаза подчинённым.
+    .suffix = Заполненный, Премиум
+ent-PremiumMk58Kit = Premium MK-58
+    .desc = Золотой МК-58 в премиум упаковке. Продается без боеприпасов.
+    .suffix = Заполненный, Премиум
+ent-ToolboxPresentableFilledGoldenmellon = Premium ящик с арбузом
+    .desc = Специальный арбуз Premium класса. Пусть все увидят, как вы богаты!
+    .suffix = Заполненный, Золоторбуз

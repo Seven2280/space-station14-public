@@ -35,11 +35,13 @@
         whitelist:
           tags:
             - CartridgeLightRifle
+  - type: StaticPrice
+    price: 3000
 
 - type: entity
   id: WeaponRifleGoldenAkLegend
   parent: WeaponRifleGoldenAk
-  suffix: Shiny
+  suffix: Shiny, DoNotMap
   description: A legend rumored to be worshiped by the NanoTrasen board of directors. Polished to a shine by the company's best maids.
   components:
   - type: Sprite
@@ -50,6 +52,8 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
       - state: anim
+  - type: StaticPrice
+    price: 1000000
 
 - type: entity
   id: MagazineLightRifleGolden
@@ -80,3 +84,5 @@
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
+  - type: StaticPrice
+    price: 50

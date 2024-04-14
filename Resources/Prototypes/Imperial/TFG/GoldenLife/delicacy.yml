@@ -78,4 +78,36 @@
     sprite: Imperial/TFG/GoldenLife/goldenPizza.rsi
     layers:
     - state: goldenPizzaSlice
+
+- type: entity
+  id: FoodPresentablePizzaBoxFilled
+  parent: BoxCardboard
+  name: Golden Life pizza
+  description: A very presentable slice of high life heaven. Soaked in the tears of scientists.
+  suffix: Filled, Premium
+  components:
+  - type: Sprite
+    sprite: Imperial/TFG/GoldenLife/presentablePizzaBox.rsi
+    drawdepth: SmallObjects
+    layers:
+    - state: box
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: box-open
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: Item
+    sprite: Imperial/TFG/GoldenLife/presentablePizzaBox.rsi
+    heldPrefix: box
+  - type: Storage
+    capacity: 15
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateDoorOpen: box-open
+    stateDoorClosed: box
+  - type: StaticPrice
+    price: 0
+  - type: StorageFill
+    contents:
+    - id: FoodPizzaGolden
+    - id: PresentableRag
+    - id: GoldenKnife
 #Golden Pizza END

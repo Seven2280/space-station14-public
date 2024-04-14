@@ -12,6 +12,9 @@
         },
         {
             "name": "presentable"
+        },
+        {
+            "name": "sign_imperial"
         }
     ]
 }

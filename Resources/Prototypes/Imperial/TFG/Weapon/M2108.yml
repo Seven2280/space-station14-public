@@ -53,7 +53,9 @@
   description:
   components:
   - type: Sprite
-    state: black
+    layers:
+    - state: black
+    - state: sign_imperial
   - type: StorageFill
     contents:
     - id: WeaponPistolM2108Award
