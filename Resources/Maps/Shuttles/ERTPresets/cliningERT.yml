@@ -26,7 +26,7 @@ entities:
   entities:
   - uid: 2
     components:
-    - name: grid
+    - name: NecoMaid59 NT-Clining-6346FA "Злой Защитник"
       type: MetaData
     - pos: -0.546875,-0.515625
       parent: invalid
@@ -333,6 +333,9 @@ entities:
       type: GridAtmosphere
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - maxSpecNumber: 999
+      specName: Clining
+      type: ShuttleName
 - proto: AdvMopItem
   entities:
   - uid: 3

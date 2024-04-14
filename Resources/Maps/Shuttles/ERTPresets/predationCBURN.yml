@@ -33,7 +33,7 @@ entities:
   entities:
   - uid: 2
     components:
-    - name: grid
+    - name: NT17 ERT-2340XK "Жёлтый Шторм"
       type: MetaData
     - pos: -0.546875,-0.9219055
       parent: invalid
@@ -1408,6 +1408,7 @@ entities:
       type: GridAtmosphere
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: ShuttleName
 - proto: AdvMopItem
   entities:
   - uid: 914
@@ -1810,6 +1811,16 @@ entities:
       pos: -0.5,13.5
       parent: 2
       type: Transform
+  - uid: 1552
+    components:
+    - pos: -2.5,-10.5
+      parent: 2
+      type: Transform
+  - uid: 1553
+    components:
+    - pos: 2.5,-10.5
+      parent: 2
+      type: Transform
 - proto: Ash
   entities:
   - uid: 1443
@@ -1847,6 +1858,30 @@ entities:
   - uid: 40
     components:
     - pos: 11.5,0.5
+      parent: 2
+      type: Transform
+- proto: AtmosFixNitrogenMarker
+  entities:
+  - uid: 1579
+    components:
+    - pos: -4.5,-20.5
+      parent: 2
+      type: Transform
+  - uid: 1587
+    components:
+    - pos: -4.5,-19.5
+      parent: 2
+      type: Transform
+- proto: AtmosFixOxygenMarker
+  entities:
+  - uid: 1575
+    components:
+    - pos: 4.5,-20.5
+      parent: 2
+      type: Transform
+  - uid: 1578
+    components:
+    - pos: 4.5,-19.5
       parent: 2
       type: Transform
 - proto: BannerMedical
@@ -3229,6 +3264,11 @@ entities:
     - pos: -5.5,11.5
       parent: 2
       type: Transform
+  - uid: 1562
+    components:
+    - pos: 2.5,-10.5
+      parent: 2
+      type: Transform
   - uid: 1569
     components:
     - pos: 5.5,10.5
@@ -3252,6 +3292,11 @@ entities:
   - uid: 1573
     components:
     - pos: 5.5,7.5
+      parent: 2
+      type: Transform
+  - uid: 1574
+    components:
+    - pos: -2.5,-10.5
       parent: 2
       type: Transform
 - proto: CableHV
@@ -3526,6 +3571,16 @@ entities:
   - uid: 1048
     components:
     - pos: 7.5,-9.5
+      parent: 2
+      type: Transform
+  - uid: 1560
+    components:
+    - pos: -2.5,-10.5
+      parent: 2
+      type: Transform
+  - uid: 1561
+    components:
+    - pos: 2.5,-10.5
       parent: 2
       type: Transform
 - proto: CableTerminal

@@ -21,7 +21,7 @@ entities:
   entities:
   - uid: 2
     components:
-    - name: grid
+    - name: NT20 ERT-3361QJ "Астральный Сокол"
       type: MetaData
     - pos: -0.8046875,-0.7109375
       parent: invalid
@@ -240,7 +240,8 @@ entities:
           0,1:
             0: 65535
           0,2:
-            0: 32767
+            1: 1
+            0: 32766
           0,3:
             0: 7
           1,0:
@@ -297,6 +298,7 @@ entities:
       type: GridAtmosphere
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: ShuttleName
 - proto: AirAlarm
   entities:
   - uid: 3
@@ -378,6 +380,18 @@ entities:
     - pos: 0.5,-1.5
       parent: 2
       type: Transform
+  - uid: 239
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 0.5,-5.5
+      parent: 2
+      type: Transform
+  - uid: 240
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 0.5,7.5
+      parent: 2
+      type: Transform
 - proto: AtmosDeviceFanTiny
   entities:
   - uid: 11
@@ -390,6 +404,30 @@ entities:
     components:
     - rot: 3.141592653589793 rad
       pos: 4.5,1.5
+      parent: 2
+      type: Transform
+- proto: AtmosFixNitrogenMarker
+  entities:
+  - uid: 232
+    components:
+    - pos: 2.5,-4.5
+      parent: 2
+      type: Transform
+  - uid: 235
+    components:
+    - pos: 3.5,-4.5
+      parent: 2
+      type: Transform
+- proto: AtmosFixOxygenMarker
+  entities:
+  - uid: 236
+    components:
+    - pos: 2.5,-2.5
+      parent: 2
+      type: Transform
+  - uid: 238
+    components:
+    - pos: 3.5,-2.5
       parent: 2
       type: Transform
 - proto: BannerNanotrasen
@@ -561,6 +599,11 @@ entities:
     - pos: -0.5,1.5
       parent: 2
       type: Transform
+  - uid: 241
+    components:
+    - pos: 0.5,7.5
+      parent: 2
+      type: Transform
 - proto: CableHV
   entities:
   - uid: 45
@@ -681,6 +724,42 @@ entities:
       pos: 0.5,2.5
       parent: 2
       type: Transform
+- proto: ClosetWall
+  entities:
+  - uid: 243
+    components:
+    - pos: 0.5,9.5
+      parent: 2
+      type: Transform
+    - air:
+        volume: 200
+        immutable: False
+        temperature: 293.1496
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      type: EntityStorage
+    - containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 244
+          - 245
+          - 246
+          - 247
+          - 248
+      type: ContainerContainer
 - proto: CombatMedipen
   entities:
   - uid: 226
@@ -717,13 +796,6 @@ entities:
     - pos: 1.5,10.5
       parent: 2
       type: Transform
-- proto: CrateMaterialSteel
-  entities:
-  - uid: 64
-    components:
-    - pos: -0.5,-3.5
-      parent: 2
-      type: Transform
 - proto: DrinkBeerBottleFull
   entities:
   - uid: 1
@@ -733,16 +805,9 @@ entities:
       type: Transform
 - proto: FaxMachineERTColored
   entities:
-  - uid: 227
+  - uid: 230
     components:
-    - pos: 0.5,-0.5
-      parent: 2
-      type: Transform
-- proto: FoodPizzaPineappleSlice
-  entities:
-  - uid: 162
-    components:
-    - pos: 1.2490764,-4.1579924
+    - pos: 0.5,8.5
       parent: 2
       type: Transform
 - proto: GasMinerNitrogen
@@ -1166,9 +1231,9 @@ entities:
       type: Transform
 - proto: GravityGeneratorMini
   entities:
-  - uid: 115
+  - uid: 64
     components:
-    - pos: 2.5,8.5
+    - pos: -0.5,-3.5
       parent: 2
       type: Transform
 - proto: Grille
@@ -1247,8 +1312,8 @@ entities:
   entities:
   - uid: 130
     components:
-    - rot: 3.141592653589793 rad
-      pos: 0.5,8.5
+    - rot: 1.5707963267948966 rad
+      pos: 1.5,-4.5
       parent: 2
       type: Transform
 - proto: LockerWallMedical
@@ -1286,13 +1351,53 @@ entities:
           - 226
           - 229
       type: ContainerContainer
-- proto: PaperBin10
+- proto: Paper
   entities:
-  - uid: 230
+  - uid: 244
     components:
-    - pos: 2.7137017,-0.37879086
-      parent: 2
+    - flags: InContainer
+      type: MetaData
+    - parent: 243
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
+  - uid: 245
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 243
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
+  - uid: 246
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 243
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
+  - uid: 247
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 243
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
+  - uid: 248
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 243
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
 - proto: PosterLegitNanotrasenLogo
   entities:
   - uid: 131
@@ -1320,6 +1425,13 @@ entities:
   - uid: 134
     components:
     - pos: 0.5,5.5
+      parent: 2
+      type: Transform
+- proto: PowerCellRecharger
+  entities:
+  - uid: 115
+    components:
+    - pos: 2.5,8.5
       parent: 2
       type: Transform
 - proto: Poweredlight
@@ -1454,23 +1566,23 @@ entities:
       type: Transform
 - proto: SpawnERTEngineerEVAPreset
   entities:
-  - uid: 232
+  - uid: 242
     components:
-    - pos: 0.5,-4.5
+    - pos: 0.5,2.5
       parent: 2
       type: Transform
 - proto: SpawnERTLeaderEVAPreset
   entities:
-  - uid: 159
+  - uid: 217
     components:
-    - pos: 2.5,2.5
+    - pos: 2.5,3.5
       parent: 2
       type: Transform
 - proto: SpawnERTMedicEVAPreset
   entities:
-  - uid: 161
+  - uid: 163
     components:
-    - pos: 2.5,3.5
+    - pos: 2.5,2.5
       parent: 2
       type: Transform
 - proto: SpawnERTSecurityEVAPreset
@@ -1485,9 +1597,9 @@ entities:
     - pos: 0.5,3.5
       parent: 2
       type: Transform
-  - uid: 163
+  - uid: 165
     components:
-    - pos: 1.5,9.5
+    - pos: 2.5,4.5
       parent: 2
       type: Transform
 - proto: SubstationBasic
@@ -1497,16 +1609,20 @@ entities:
     - pos: -0.5,-4.5
       parent: 2
       type: Transform
-- proto: Table
-  entities:
-  - uid: 165
-    components:
-    - rot: 3.141592653589793 rad
-      pos: 1.5,-4.5
-      parent: 2
-      type: Transform
 - proto: TableReinforced
   entities:
+  - uid: 161
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 0.5,8.5
+      parent: 2
+      type: Transform
+  - uid: 227
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 2.5,8.5
+      parent: 2
+      type: Transform
   - uid: 233
     components:
     - pos: 2.5,-0.5
@@ -1787,10 +1903,14 @@ entities:
       type: Transform
 - proto: WeaponCapacitorRecharger
   entities:
-  - uid: 217
+  - uid: 159
     components:
-    - rot: 3.141592653589793 rad
-      pos: 1.5,-4.5
+    - pos: 2.5,-0.5
+      parent: 2
+      type: Transform
+  - uid: 162
+    components:
+    - pos: 0.5,-0.5
       parent: 2
       type: Transform
 - proto: WindowReinforcedDirectional
