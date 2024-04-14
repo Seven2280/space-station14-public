@@ -812,6 +812,7 @@
       - ClothingUniformJumpsuitCoroner #Imperial coroner
       - ClothingUniformJumpskirtCoroner #Imperial coroner
       - ClothingNeckCloakNanotrasenBlack #Imperial black cloak
+      - WardenMantleLathe #ImperialClothes Мантия смотрителя
   - type: MaterialStorage
     whitelist:
       tags:
