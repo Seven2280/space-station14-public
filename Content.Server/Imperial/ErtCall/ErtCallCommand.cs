@@ -27,7 +27,7 @@ public sealed class CallErt : LocalizedCommands
                 .EnumeratePrototypes<ErtCallPresetPrototype>()
                 .Select(p => new CompletionOption(p.ID, p.Desc));
 
-            return CompletionResult.FromHintOptions(options, Loc.GetString("callertcommand-id-preset"));
+            return CompletionResult.FromHintOptions(options.OrderBy(x => x.Value, StringComparer.Ordinal).ToArray(), Loc.GetString("callertcommand-id-preset"));
         }
 
         return CompletionResult.Empty;

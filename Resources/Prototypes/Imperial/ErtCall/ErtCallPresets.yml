@@ -1,50 +1,50 @@
 - type: ertCall
-  id: Old-Small-ERT
+  id: Dart-ERT-Small
   path: "Maps/Shuttles/ERTPresets/dartERTSmall.yml"
   desc: "1 лидер, 3 бойца, 1 инж, 1 мед"
 
 - type: ertCall
-  id: Old-Medium-ERT
+  id: Dart-ERT-Medium
   path: "Maps/Shuttles/ERTPresets/dartERTMedium.yml"
   desc: "1 лидер, 6 бойцов, 1 инж, 1 мед"
 
 - type: ertCall
-  id: Old-BIG-ERT
+  id: Dart-ERT-Big
   path: "Maps/Shuttles/ERTPresets/dartERTBig.yml"
   desc: "1 Лидер, 12 бойцов, 2 инж, 2 мед, 1 уборщик"
 
 - type: ertCall
-  id: Old-CBURN
+  id: Dart-CBURN
   path: "Maps/Shuttles/ERTPresets/dartCBURN.yml"
   desc: "1 лидер, 6 бойцов, 1 мед"
 
 - type: ertCall
-  id: Predation-Small-Security-ERT
+  id: Predation-ERT-Security
   path: "Maps/Shuttles/ERTPresets/ertDagger.yml"
-  desc: "1 лидер, 4 бойца"
+  desc: "1 лидер, 4 бойца, небольшой шаттл"
 
 - type: ertCall
-  id: Janitor-ERT
+  id: ERT-Janitor
   path: "Maps/Shuttles/ERTPresets/junitorERT.yml"
   desc: "1 лидер, 4 уборщика"
 
 - type: ertCall
-  id: Clining-ERT
+  id: ERT-Clining
   path: "Maps/Shuttles/ERTPresets/cliningERT.yml"
   desc: "1 лидер, 4 уборщика, дорогой шаттл"
 
 - type: ertCall
-  id: Predation-Small-ERT
+  id: Predation-ERT-Small
   path: "Maps/Shuttles/ERTPresets/predationERTSmall.yml"
   desc: "1 лидер, 3 бойца, 1 медик, 1 инженер"
 
 - type: ertCall
-  id: Predation-Medium-ERT
+  id: Predation-ERT-Medium
   path: "Maps/Shuttles/ERTPresets/predationERTMedium.yml"
   desc: "1 лидер, 7 бойцов, 1 медик, 1 инженер, нет клонирования."
 
 - type: ertCall
-  id: Predation-BIG-ERT
+  id: Predation-ERT-Big
   path: "Maps/Shuttles/ERTPresets/predationERTBig.yml"
   desc: "1 лидер, 12 бойцов, 2 медика, 2 инженера, 2 уборщика"
 
