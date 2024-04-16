@@ -37,6 +37,8 @@
     jumpsuit: ClothingUniformJumpsuitQM
     back: ClothingBackpackQuartermasterFilled
     shoes: ClothingShoesColorBrown
+    eyes: ClothingEyesGlassesSunglasses #Imperial
+    outerClothing: ClothingOuterArmorQMCoat #Imperial
     id: QuartermasterPDA
     ears: ClothingHeadsetQM
     belt: BoxFolderClipboard
