@@ -16,10 +16,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
     shoes: ClothingShoesBootsCombatFilled
-    head: ClothingHeadHatCentcom
+    head: ClothingHeadHatCentComCap ## Наша кепка ЦК ImperialClothes 
     eyes: ClothingEyesGlassesSunglasses
-    gloves: ClothingHandsGlovesColorBlack
-    outerClothing: ClothingOuterArmorBasic
+    gloves: ClothingHandsGlovesCentCom ## Наш перчатки ЦК ImperialClothes
+    outerClothing: ClothingOuterArmorCentCom ## Наш бронежилет ЦК ImperialClothes
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
     pocket1: BoxFolderBlack
