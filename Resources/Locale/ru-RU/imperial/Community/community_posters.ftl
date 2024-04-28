@@ -82,6 +82,18 @@ ent-KEEYN_4 = Never Gonna Give You Up!
     .desc = Yeah, rickrolled
     .suffix = { "COMMUNITY,POSTER" }
 
+ent-KEEYN_5 = Пляж
+    .desc = Красивый глянцевый постер с прекрасной женщиной на фоне пляжа. Имеется подпись "Если хотите отдыхать также, обращайтесь в Mitsuma Pretty Girls Academy"
+    .suffix = { "COMMUNITY,POSTER" }
+
+ent-KEEYN_6 = Кайф
+    .desc = Когда-то стоит просто отдохнуть...
+    .suffix = { "COMMUNITY,POSTER" }
+
+ent-KEEYN_7 = Премия!
+    .desc = Работайте лучше во благо НТ, НТ вас наградит!
+    .suffix = { "COMMUNITY,POSTER" }
+
 ent-Swebit_1 = MK58 - Оружие для настоящих мужчин!
     .desc = На плакате изображен малокалиберный пистолет МК 58, который в основном используется Сотрудниками Службы Безопасности.
     .suffix = { "COMMUNITY,POSTER" }

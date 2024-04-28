@@ -43,7 +43,7 @@
 
 #encrowmer
 
-#poster 
+#poster
 - type: entity
   parent: CommunityPosterBase
   id: encrowmer_1
@@ -238,6 +238,41 @@
   - type: Sprite
     state: KEEYN_4
     scale: 0.85, 0.85
+
+#painting
+- type: entity
+  parent: CommunityPosterBase
+  id: KEEYN_5
+  name: "KEEYN_5"
+  description: "KEEYN_5"
+  components:
+  - type: Sprite
+    state: KEEYN_5
+    scale: 0.9, 0.9
+
+#painting
+- type: entity
+  parent: CommunityPosterBase
+  id: KEEYN_6
+  name: "KEEYN_6"
+  description: "KEEYN_6"
+  components:
+  - type: Sprite
+    state: KEEYN_6
+    scale: 0.9, 0.9
+
+#painting
+- type: entity
+  parent: CommunityPosterBase
+  id: KEEYN_7
+  name: "KEEYN_7"
+  description: "KEEYN_7"
+  components:
+  - type: Sprite
+    state: KEEYN_7
+    scale: 0.9, 0.9
+
+
 
 #Swebit
 
