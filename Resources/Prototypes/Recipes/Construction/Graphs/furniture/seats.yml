@@ -59,6 +59,20 @@
             - material: MetalRod
               amount: 2
 
+        # Imperial start
+        - to: couchComfy
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 2
+
+        - to: couchGold
+          steps:
+            - material: Gold
+              amount: 5
+              doAfter: 2
+        # Imperial end
+
     - node: chair
       entity: Chair
       edges:
@@ -179,3 +193,30 @@
             - tool: Screwing
               doAfter: 1
 
+
+    # Imperial start
+
+    - node: couchComfy
+      entity: ComfyCouch
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 2
+
+    - node: couchGold
+      entity: GoldCouch
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: IngotGold1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 2
+    # Imperial end
