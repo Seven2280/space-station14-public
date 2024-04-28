@@ -99,3 +99,40 @@ ent-SonaLabCoat = Женский лабораторный халат S-o.N.A
 
 ent-ClothingSatchelSona = Сумка S-o.N.A
     .desc = Стандартная сумка сотрудников S-o.N.A. AI Dynamics.
+
+ent-SonaBeltEngineer = Пояс инженера
+    .desc = Продвинутый пояс инженера корпорации S-o.N.A. AI Dynamics.
+
+ent-ClothingNeckCloakSona = Плащ S-o.N.A
+    .desc = Красивый плащ, который используют высокопоставленные люди в корпорации S-o.N.A. AI Dynamics.
+
+ent-ClothingUniformCapJumpskirtSona = Роскошная юбка S-o.N.A
+    .desc = Удобная и практичная юбка, сделанная из самых качественных материалов.
+
+ent-SonaSecCoat = Куртка S-o.N.A
+    .desc = Стандартная куртка корпорации S-o.N.A. AI Dynamics.
+
+ent-SonaArmoryHelmet = Шлем S-o.N.A
+    .desc = Шлем элитной охраны корпорации S-o.N.A. AI Dynamics.
+
+ent-ClothingEliteNeckCloakSona = Элитный плащ S-o.N.A
+    .desc = Красивый элитный плащ, который используют высокопоставленные люди в корпорации S-o.N.A. AI Dynamics.
+
+ent-SonaWebbing = Разгрузка S-o.N.A
+    .desc = Тактическая разгрузка бойцов корпорации S-o.N.A. AI Dynamics.
+
+ent-SonaEyesGlassesMeson = Голубые инженерные очки
+    .desc = Модифицированные инженерные очки корпорации S-o.N.A. AI Dynamics.
+
+ent-SonaHeadsetMini = Гарнитура S-o.N.A
+
+ent-HeadsetAltSona = Полноразмерная гарнитура S-o.N.A
+
+ent-EngSuitTwo = Шлем от скафандра био-инженера S-o.N.A
+   .desc = Стандартный шлем от скафандра био-инженера.
+
+ent-EngSuitOne = Скафандр био-инженера S-o.N.A
+   .desc = Корпорация S-o.N.A. AI Dynamics относительно плохо освоила производство скафандров. Тем не менее, данный скафандр всё же добился своего выпуска. Не сказать, что он хорошо защищает он различных физических повреждений, однако он достойно держит радиацию.
+
+ent-ClothingEyesLinsesSona = Линзы S-o.N.A
+   .desc = Технологичные линзы корпорации S-o.N.A. AI Dynamics.
