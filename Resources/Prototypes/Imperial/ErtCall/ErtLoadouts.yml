@@ -228,12 +228,12 @@
   id: ERTCallDeadSquadSecurityGearEVA
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingBackpackDeadSquadSecurityFilled
-    mask: ClothingMaskGasSwat
+    back: ClothingControlModsuitApocryphalSealed ## Замена рюкзака на РИГ
+    mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterHardsuitDeathsquad
+## outerClothing: ClothingOuterHardsuitDeathsquad В связи с наличием РИГ'а скафандр убран
     shoes: ClothingShoesBootsMagAdv #DOTO black variant
     id: DeadSquadPDA
     pocket1: ERTUplinkDeadSquad

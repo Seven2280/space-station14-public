@@ -189,7 +189,19 @@
       implants:
       - FreedomImplant
       - EmpImplant
-
+    - type: NpcFactionMember
+      factions:
+      - DeathSquad
+      
+- type: npcFaction ##Новая фракция для эскадрона смерти
+  id: DeathSquad
+  hostile:
+  - NanoTrasen
+  - Syndicate
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
 #DEAD SQUAD END
 
 

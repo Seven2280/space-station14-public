@@ -1154,3 +1154,48 @@
     BlueSpaceCube: 1
   categories:
   - ERTUplinkUtilities
+
+- type: listing
+  id: ErtCallUplinkWeaponL6Saw
+  name: ert-uplink-weaponcombat-weaponL6Saw-name
+  description: ert-uplink-weaponcombat-L6Saw-desc
+  productEntity: WeaponLightMachineGunL6
+  cost:
+    BlueSpaceCube: 15
+  categories:
+  - ERTUplinkWeaponCombat
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - ErtUplinkDeadSquad
+
+- type: listing
+  id: ErtCallUplinkMagazineLightRifleBox
+  name: ert-uplink-ammo-MagazineLightRifleBox-name
+  description: ert-uplink-ammo-MagazineLightRifleBox-desc
+  productEntity: MagazineLightRifleBox
+  cost:
+    BlueSpaceCube: 4
+  categories:
+  - ERTUplinkAmmoCombat
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - ErtUplinkDeadSquad
+
+- type: listing
+  id: ErtCallUplinkEnergyShield
+  name: ert-uplink-utilities-energyshield-name
+  description: ert-uplink-utilities-energyshield-desc
+  productEntity: EnergyShield 
+  cost:
+    BlueSpaceCube: 5
+  categories:
+  - ERTUplinkUtilities
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - ErtUplinkDeadSquad

@@ -547,6 +547,11 @@
     autoRot: true
   - type: StaticPrice
     price: 150000
+  - type: Speech # Взрывные РИГ'и
+    speechSounds: Pai
+  - type: ClothingFactionExplosion # Взрывные РИГ'и
+    friendlyFaction: DeathSquad
+    chance: 1
 
 - type: entity
   parent: ClothingControlModsuitBase
