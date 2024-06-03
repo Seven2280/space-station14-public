@@ -44,9 +44,12 @@ guide-entry-artifact-reports = Отчёты об артефактах
 guide-entry-traversal-distorter = Поперечный искатель
 guide-entry-machine-upgrading = Улучшение оборудования
 guide-entry-robotics = Робототехника
+guide-entry-cyborgs = Борги
 guide-entry-security = Служба Безопасности
+guide-entry-forensics = Криминалистика
 guide-entry-dna = ДНК
 guide-entry-defusal = Обезвреживание большой бомбы
+guide-entry-criminal-records = Криминальные записи
 
 guide-entry-antagonists = Антагонисты
 guide-entry-nuclear-operatives = Ядерные Оперативники
