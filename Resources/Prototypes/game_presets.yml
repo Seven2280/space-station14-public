@@ -93,6 +93,7 @@
   showInVote: true # imperial add-on
   rules:
     - Traitor
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - BasicRoundstartVariation
 
@@ -118,6 +119,7 @@
   showInVote: true # imperial add-on
   rules:
     - Nukeops
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - BasicRoundstartVariation
 
@@ -132,6 +134,7 @@
   showInVote: true # imperial add-on
   rules:
     - Revolutionary
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - BasicRoundstartVariation
 
