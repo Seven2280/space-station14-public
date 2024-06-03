@@ -7,7 +7,7 @@
 <Box>Необходимые детали:</Box>
 <Box>
 <GuideEntityEmbed Entity="AmeController"/>
-<GuideEntityEmbed Entity="AmePart"/>
+<GuideEntityEmbed Entity="AmeShielding"/>
 <GuideEntityEmbed Entity="AmeJar"/>
 </Box>
 

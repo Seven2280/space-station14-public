@@ -1084,7 +1084,6 @@
       sprite: Imperial/Playablecards/cardbin.rsi
       visible: false
   - type: Storage
-    maxItemSize: Huge
     grid:
     - 0,0,19,2
     whitelist:
@@ -1092,7 +1091,7 @@
         - PlayableCard
   - type: Item
     sprite: Imperial/Playablecards/cardbin.rsi
-    size: Tiny0
+    size: Tiny
   - type: ItemCounter
     count:
       tags: [PlayableCard]

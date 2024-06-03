@@ -20,7 +20,6 @@
 <Box>
 <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
 <GuideEntityEmbed Entity="OxygenTankFilled"/>
-<GuideEntityEmbed Entity="YellowOxygenTankFilled"/>
 <GuideEntityEmbed Entity="NitrogenTankFilled"/>
 </Box>
 Внутренние органы будут иметь важное значение, поскольку всем видам необходимо дышать, а в космосе нет газов. Ваша маска используется для подсоединения бензобака ко рту для дыхания, в то время как бензобаки содержат расходуемые газы и могут быть пополнены из газовых канистр. Все виды дышат кислородом (синие + желтые резервуары), кроме слизней, которым нужен азот (красные резервуары).
