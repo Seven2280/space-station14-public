@@ -209,3 +209,7 @@ ghost-role-information-syndicate-reinforcement-rules = Вы - антагонис
 ghost-role-information-syndicate-monkey-reinforcement-name = Обезьяний агент синдиката
 ghost-role-information-syndicate-monkey-reinforcement-description = Кому-то нужно подкрепление. Вы, натренированная обезьяна, поможете им.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Вы - антагонист. Работайте с теми, кто вас вызвал, и не причиняйте им вреда.
+
+ghost-role-information-syndicate-artifact-name = разумный артефакт
+ghost-role-information-syndicate-monkey-reinforcement-description = Реализуйте свои жуткие прихоти.
+                                                                    Насильно активируйте свои узлы во благо или во зло.

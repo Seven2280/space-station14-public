@@ -68,7 +68,7 @@ ent-BarSignZocalo = Сокало
     .desc = Ранее находилось в Космоамерике.
     .suffix = { "" }
 ent-BarSignEmprah = За Империю
-    .desc = Нравится и фанатикам, и еретикам, и завсегдатаям с дефектами мозга.
+    .desc = Нравится и фанатикам, и еретикам, и империалистам.
     .suffix = { "" }
 
 ent-BarSignSpacebucks = Spacebucks

@@ -175,3 +175,5 @@ ent-MobWatcherMagmawing = магмакрылый наблюдатель
     .desc = { ent-MobWatcherLavaland.desc }
 ent-MobWatcherPride = рардужный наблюдатель
     .desc = Этот редкий подвид появляется лишь в июне.
+ent-MobDionaNymph = Нимфа дионы
+    .desc = Это как кошка, только.... Ветвистая.
