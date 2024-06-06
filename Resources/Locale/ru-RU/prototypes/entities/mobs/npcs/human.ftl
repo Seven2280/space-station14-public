@@ -11,3 +11,5 @@ ent-MobCluwne = существо
     .desc = Полиморфированное несчастье.
     .suffix = { "" }
 ent-MobSalvager = Утилизатор
+ent-MobSyndicateFootsoldier = пеший солдат синдиката
+ent-MobSyndicateFootsoldierPilot = пилот шаттла синдиката

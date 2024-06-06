@@ -62,3 +62,7 @@ ent-LockerRepresentative = представительский шкаф
     .desc = Стандартное хранилище Nanotrasen.
 ent-ClosetSteelBase = Шкаф
     .desc = Стандартное хранилище Nanotrasen.
+ent-LockerSyndicateShipGearBasic = Шкаф
+    .desc = Стандартное хранилище Синдиката.
+ent-LockerSyndicateShipGearBasicChameleonKit = Шкаф
+    .desc = Стандартное хранилище Синдиката.

@@ -251,3 +251,5 @@ ent-ClothingOuterCoatTrench = тренч
     .desc = Комфортный тренч
 ent-ClothingOuterCoatSpaceAsshole = пальто космического мерзавца
     .desc = И вот он был...
+ent-ClothingOuterCoatExpensive = дорогое пальто
+    .desc = Очень пушистое розовое пальто, выполненное из очень дорогого меха (это понятно).

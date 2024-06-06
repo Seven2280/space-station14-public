@@ -67,3 +67,5 @@ ent-ClothingBackpackDuffelSyndicateCarpSuit = красный вещмешок
 ent-ClothingBackpackDuffelCBURNFilled = Cумка РХБЗЗ
     .desc = Спортивная сумка, содержащая различные средства биологической защиты.
     .suffix = Заполненный
+ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = Набор приманок
+    .desc = «Содержит отвлекающие факторы, как слуховые, так и зрительные. Скоро появится запах».

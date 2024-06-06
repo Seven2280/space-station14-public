@@ -328,3 +328,6 @@ ent-HighSecCaptainLocked = { ent-HighSecDoor }
 ent-HighSecArmoryLocked = { ent-HighSecDoor }
     .suffix = Оружейная, Закрыт
     .desc = { ent-HighSecDoor.desc }
+ent-AirlockHatchSyndicate = { ent-AirlockMaint }
+    .suffix = Синдикат, Закрыт
+    .desc = { ent-AirlockMaint.desc }
