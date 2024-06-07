@@ -13,6 +13,9 @@ ent-CrateMaterialPlastic = Ящик пластика
 ent-CrateMaterialWood = Ящик дерева
     .desc = Куча деревянных досок.
 
+ent-CrateMaterialBrass = Ящик латуни
+    .desc = 90 листов латуни.
+
 ent-CrateMaterialPlasteel = Ящик пластали
     .desc = 90 единиц пластали.
 

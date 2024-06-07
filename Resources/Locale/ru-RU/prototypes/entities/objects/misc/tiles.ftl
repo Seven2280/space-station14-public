@@ -179,3 +179,7 @@ ent-FloorTileItemLime = лимонная плитка
     .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemSteelLingering0 = стальная плитка
     .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemBrassFilled = заполненная латунная пластина
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemBrassReebe = гладкая латунная пластина
+    .desc = { ent-FloorTileItemBase.desc }

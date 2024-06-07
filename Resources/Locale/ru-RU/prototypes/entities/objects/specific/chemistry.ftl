@@ -33,6 +33,9 @@ ent-SyringeBluespace = блюспейс шприц
     .suffix = { "" }
 ent-CryoxadoneBeakerSmall = мензурка криоксадона
     .desc = Наполнена реагентом, используемым в криогенных капсулах.
+ent-PrefilledSyringe = { ent-BaseSyringe }
+    .desc = { ent-BaseSyringe.desc }
+    .suffix = { "" }
 
 ent-BorgDropper = Пипетка борга
     .desc = Используется для перекачивания небольших количеств химического раствора между контейнерами. Расширен для использования медицинскими боргами.

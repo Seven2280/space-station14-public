@@ -250,3 +250,7 @@ ent-AirlockMaintServiceLocked = { ent-Airlock }
     .suffix = Сервис, Закрыт
 ent-AirlockHatchMaintenance = герметичный люк
     .desc = { ent-AirlockGlass.desc }
+ent-PinionAirlockAssembly = шлюзовая сборка
+    .desc = { ent-AirlockGlass.desc }
+ent-PinionAirlockAssemblyGlass = шлюзовая сборка
+    .desc = { ent-AirlockGlass.desc }

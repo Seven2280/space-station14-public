@@ -70,3 +70,5 @@ ent-TableFancyRed = { ent-TableFancyBlack }
 ent-TableFancyWhite = { ent-TableFancyBlack }
     .desc = { ent-TableFancyBlack.desc }
     .suffix = Белый
+ent-TableBrass = латунный стол
+    .desc = Блестящий, устойчивый к коррозии стол из латуни. Стимпанк!

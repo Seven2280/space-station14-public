@@ -138,3 +138,5 @@ ent-PlasmaWindoorSecureJanitorLocked = { ent-WindoorSecurePlasma }
 ent-PlasmaWindoorSecureScienceLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-Windoor.desc }
     .suffix = Научный, Закрыт
+ent-WindoorClockwork = раздвижное заводное окно
+    .desc = Это и прочное окно, и раздвижная дверь. Вот это да!
