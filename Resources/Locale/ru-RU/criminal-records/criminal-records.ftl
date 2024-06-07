@@ -12,7 +12,7 @@ criminal-records-status-wanted = Разыскивается
 criminal-records-status-detained = Под арестом
 criminal-records-status-suspected = Подозреваемый
 criminal-records-status-discharged = Выписан
-criminal-records-status-paroled = условно-досрочно освобожден
+criminal-records-status-paroled = Условно-досрочно освобожден
 
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
 criminal-records-console-suspected-reason = [color=gray]Предполагаемая причина[/color]
