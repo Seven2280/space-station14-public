@@ -16,7 +16,6 @@ criminal-records-status-paroled = Условно-досрочно освобож
 
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
 criminal-records-console-suspected-reason = [color=gray]Предполагаемая причина[/color]
-criminal-records-console-suspected-reason = [color=gray]Предполагаемая причина[/color]
 criminal-records-console-reason = Причина
 criminal-records-console-reason-placeholder = Пример: { $placeholder }
 
