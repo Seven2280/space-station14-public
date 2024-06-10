@@ -177,3 +177,7 @@ ent-MobWatcherPride = рардужный наблюдатель
     .desc = Этот редкий подвид появляется лишь в июне.
 ent-MobDionaNymph = Нимфа дионы
     .desc = Это как кошка, только.... Ветвистая.
+ent-MobMonkeySyndicateAgentNukeops = { ent-MobMonkey }
+    .desc = { ent-MobMonkey.desc }
+ent-MobBaseSyndicateMonkey = { ent-MobMonkey }
+    .desc = { ent-MobMonkey.desc }

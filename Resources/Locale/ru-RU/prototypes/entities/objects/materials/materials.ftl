@@ -78,3 +78,5 @@ ent-MaterialBones = кости
     .desc = На вид как старые кости.
 ent-MaterialHideCorgi = шкура корги
     .desc = Ну ты живодёр...
+ent-MaterialGunpowder = Порох
+    .desc = Взрывчатый порошок.

@@ -82,3 +82,6 @@ ent-LockerBrigmedic = шкаф бригмедика
 ent-LockerFreezerBase = холодильник
     .suffix = Без доступа
     .desc = { ent-LockerBase.desc }
+ent-LockerSteel = безопасный шкаф
+    .desc = { ent-LockerBase.desc }
+    .suffix = { "" }

@@ -86,3 +86,5 @@ ent-CrateTrashCartJani = мусорная тележка уборщика
     .desc = { ent-CrateBaseSecure.desc }
 ent-CrateWeb = ящик из паутины
     .desc = { ent-CrateBaseSecure.desc }
+ent-CrateContrabandStorageSecure = ящик для хранения контрабанды
+    .desc = { ent-CrateBaseSecure.desc }

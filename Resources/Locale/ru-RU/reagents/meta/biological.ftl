@@ -19,6 +19,9 @@ reagent-desc-fat = Независимо от того, как он был пол
 reagent-name-vomit = рвота
 reagent-desc-vomit = В нем можно увидеть несколько кусков чьего-то последнего обеда.
 
+reagent-name-grey-matter = серое вещество
+reagent-desc-grey-matter = Сок мыслей, вещество, которое вытекает из ваших ушей.
+
 reagent-name-insect-blood = кровь насекомого
 reagent-desc-insect-blood = Ладно, это действительно отвратительно. Оно выглядит почти... живым?
 
