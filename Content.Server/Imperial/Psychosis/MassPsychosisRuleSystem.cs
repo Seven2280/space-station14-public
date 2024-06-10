@@ -8,6 +8,7 @@ using Content.Shared.Traits.Assorted;
 using FastAccessors;
 using Robust.Shared.Configuration;
 using Robust.Shared.Random;
+using Content.Shared.NPC.Components;
 
 namespace Content.Server.StationEvents.Events;
 

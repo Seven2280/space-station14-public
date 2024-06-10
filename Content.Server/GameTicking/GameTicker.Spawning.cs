@@ -8,7 +8,7 @@ using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
-using Content.Shared.Mind; //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+using Content.Shared.Mind; //Перенос ПР №27617 от Wizard заранее. Imperial Space
 using Content.Shared.Players;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
@@ -95,7 +95,7 @@ namespace Content.Server.GameTicking
                 if (job == null)
                 {
                     var playerSession = _playerManager.GetSessionById(netUser);
-                    _chatManager.DispatchServerMessage(playerSession, Loc.GetString("job-not-available-wait-in-lobby")); //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+                    _chatManager.DispatchServerMessage(playerSession, Loc.GetString("job-not-available-wait-in-lobby")); //Перенос ПР №27617 от Wizard заранее. Imperial Space
                 }
                 else
                 {
@@ -293,7 +293,7 @@ namespace Content.Server.GameTicking
         /// <param name="station">The station they're spawning on</param>
         /// <param name="jobId">An optional job for them to spawn as</param>
         /// <param name="silent">Whether or not the player should be greeted upon joining</param>
-        public void MakeJoinGame(ICommonSession player, EntityUid station, string? jobId = null, bool silent = false) //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+        public void MakeJoinGame(ICommonSession player, EntityUid station, string? jobId = null, bool silent = false) //Перенос ПР №27617 от Wizard заранее. Imperial Space
         {
             if (!_playerGameStatuses.ContainsKey(player.UserId))
                 return;
@@ -326,17 +326,17 @@ namespace Content.Server.GameTicking
             if (DummyTicker)
                 return;
 
-            Entity<MindComponent?>? mind = player.GetMind(); //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+            Entity<MindComponent?>? mind = player.GetMind(); //Перенос ПР №27617 от Wizard заранее. Imperial Space
             if (mind == null)
             {
-                var name = GetPlayerProfile(player).Name; //Перенос ПР №27617 от Wizard заранее. Imperial Space 
-                var (mindId, mindComp) = _mind.CreateMind(player.UserId, name); //Перенос ПР №27617 от Wizard заранее. Imperial Space 
-                mind = (mindId, mindComp); //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+                var name = GetPlayerProfile(player).Name; //Перенос ПР №27617 от Wizard заранее. Imperial Space
+                var (mindId, mindComp) = _mind.CreateMind(player.UserId, name); //Перенос ПР №27617 от Wizard заранее. Imperial Space
+                mind = (mindId, mindComp); //Перенос ПР №27617 от Wizard заранее. Imperial Space
                 _mind.SetUserId(mind.Value, player.UserId);
                 _roles.MindAddRole(mind.Value, new ObserverRoleComponent());
             }
 
-            var ghost = _ghost.SpawnGhost(mind.Value); //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+            var ghost = _ghost.SpawnGhost(mind.Value); //Перенос ПР №27617 от Wizard заранее. Imperial Space
             _adminLogger.Add(LogType.LateJoin,
                 LogImpact.Low,
                 $"{player.Name} late joined the round as an Observer with {ToPrettyString(ghost):entity}.");
@@ -347,7 +347,7 @@ namespace Content.Server.GameTicking
         {
             _possiblePositions.Clear();
 
-            foreach (var (point, transform) in EntityManager.EntityQuery<SpawnPointComponent, TransformComponent>(true)) //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+            foreach (var (point, transform) in EntityManager.EntityQuery<SpawnPointComponent, TransformComponent>(true)) //Перенос ПР №27617 от Wizard заранее. Imperial Space
             {
                 if (point.SpawnType != SpawnPointType.Observer)
                     continue;
@@ -363,7 +363,7 @@ namespace Content.Server.GameTicking
                 var query = AllEntityQuery<MapGridComponent>();
                 while (query.MoveNext(out var uid, out var grid))
                 {
-                    if (!metaQuery.TryGetComponent(uid, out var meta) || meta.EntityPaused || TerminatingOrDeleted(uid)) //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+                    if (!metaQuery.TryGetComponent(uid, out var meta) || meta.EntityPaused || TerminatingOrDeleted(uid)) //Перенос ПР №27617 от Wizard заранее. Imperial Space
                     {
                         continue;
                     }
@@ -401,9 +401,9 @@ namespace Content.Server.GameTicking
             {
                 var mapUid = _mapManager.GetMapEntityId(map);
 
-                if (!metaQuery.TryGetComponent(mapUid, out var meta) //Перенос ПР №27617 от Wizard заранее. Imperial Space 
-                    || meta.EntityPaused //Перенос ПР №27617 от Wizard заранее. Imperial Space 
-                    || TerminatingOrDeleted(mapUid)) //Перенос ПР №27617 от Wizard заранее. Imperial Space 
+                if (!metaQuery.TryGetComponent(mapUid, out var meta) //Перенос ПР №27617 от Wizard заранее. Imperial Space
+                    || meta.EntityPaused //Перенос ПР №27617 от Wizard заранее. Imperial Space
+                    || TerminatingOrDeleted(mapUid)) //Перенос ПР №27617 от Wizard заранее. Imperial Space
                 {
                     continue;
                 }

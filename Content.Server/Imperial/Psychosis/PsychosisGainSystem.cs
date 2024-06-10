@@ -6,6 +6,7 @@ using Content.Shared.Roles;
 using Content.Shared.Traits.Assorted;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
+using Content.Shared.NPC.Components;
 
 namespace Content.Server.Traits.Assorted;
 

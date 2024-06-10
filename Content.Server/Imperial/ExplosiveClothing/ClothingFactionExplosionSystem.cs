@@ -7,6 +7,7 @@ using Robust.Shared.Random;
 using Content.Server.Administration.Logs;
 using Content.Shared.Database;
 using Content.Server.Chat.Managers;
+using Content.Shared.NPC.Components;
 
 namespace Content.Server.Clothing.Systems;
 

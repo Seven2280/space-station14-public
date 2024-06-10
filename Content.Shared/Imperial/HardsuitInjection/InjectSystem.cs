@@ -194,7 +194,7 @@ public sealed class InjectSystem : EntitySystem
         if (component.StripDelay == null)
             return;
 
-        var (time, stealth) = _strippable.GetStripTimeModifiers(user, wearer, (float) component.StripDelay.Value.TotalSeconds);
+        var (time, stealth) = _strippable.GetStripTimeModifiers(user, wearer, component.StripDelay.Value);
 
         var args = new DoAfterArgs(EntityManager, user, time, new ToggleSlotDoAfterEvent(), item, wearer, item)
         {
