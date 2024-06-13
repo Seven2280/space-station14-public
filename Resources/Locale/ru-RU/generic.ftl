@@ -11,4 +11,6 @@ generic-invalid = недействительно
 
 generic-hours = часы
 
-generic-playtime-title = Playtime
+generic-playtime-title = Время игры
+
+generic-confirm = Подтвердить
