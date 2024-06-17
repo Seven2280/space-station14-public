@@ -51,8 +51,8 @@
 
 - type: entity
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: Буу! #Imperial translate
+  description: Напугайте экипаж станции от скуки! #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -63,8 +63,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: Toggle All Lighting
-  description: Toggle all light rendering to better observe dark areas.
+  name: Переключить все освещение #Imperial translate
+  description: Переключите весь рендеринг света, чтобы лучше рассмотреть темные области. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -75,8 +75,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: Переключить поле зрения #Imperial translate
+  description: Переключает поле обзора, чтобы видеть то, что видят игроки. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -87,8 +87,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: Переключить призраков #Imperial translate
+  description: Переключить видимость других призраков. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -99,8 +99,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: Переключить слух призрака #Imperial translate
+  description: Переключение между прослушиванием всех сообщений и прослушиванием только радио и сообщений поблизости. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction

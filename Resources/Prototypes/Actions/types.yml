@@ -11,8 +11,8 @@
 
 - type: entity
   id: ActionScream
-  name: Scream
-  description: AAAAAAAAAAAAAAAAAAAAAAAAA
+  name: Крикнуть #Imperial translate
+  description: AAAAAAAAAAAAAAAAAAAAAAAAA #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionTurnUndead
-  name: Turn Undead
-  description: Succumb to your infection and become a zombie.
+  name: Обратиться #Imperial translate
+  description: Поддайтесь инфекции и станьте зомби. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -34,8 +34,8 @@
 
 - type: entity
   id: ActionToggleLight
-  name: Toggle Light
-  description: Turn the light on and off.
+  name: Переключить свет #Imperial translate
+  description: Включение и выключение света. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -45,8 +45,8 @@
 
 - type: entity
   id: ActionOpenStorageImplant
-  name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  name: Имплантат хранилища #Imperial translate
+  description: Открывает хранилище, встроенный под кожу. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateMicroBomb
-  name: Activate Microbomb
-  description: Activates your internal microbomb, completely destroying you and your equipment
+  name: Активировать микробомбу #Imperial translate
+  description: Активирует вашу внутреннюю микробомбу, полностью уничтожая вас и ваше оборудование. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateDeathAcidifier
-  name: Activate Death-Acidifier
-  description: Activates your death-acidifier, completely melting you and your equipment
+  name: Активировать кислотную смерть #Imperial translate
+  description: Активирует кислотную смерть, полностью расплавляя вас и ваше снаряжение. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -92,8 +92,8 @@
 
 - type: entity
   id: ActionActivateFreedomImplant
-  name: Break Free
-  description: Activating your freedom implant will free you from any hand restraints
+  name: Вырваться на свободу #Imperial translate
+  description: Активация имплантата "свободы" освободит вас от любых ограничений для рук. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -108,8 +108,8 @@
 
 - type: entity
   id: ActionOpenUplinkImplant
-  name: Open Uplink
-  description: Opens the syndicate uplink embedded under your skin
+  name: Открыть аплинк #Imperial translate
+  description: Открывает восходящий канал синдиката, встроенный под вашу кожу. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -122,8 +122,8 @@
 
 - type: entity
   id: ActionActivateEmpImplant
-  name: Activate EMP
-  description: Triggers a small EMP pulse around you
+  name: Активировать ЭМИ #Imperial translate
+  description: Вызывает небольшой ЭМИ-импульс вокруг вас. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -138,8 +138,8 @@
 
 - type: entity
   id: ActionActivateScramImplant
-  name: SCRAM!
-  description: Randomly teleports you within a large distance.
+  name: ТЕЛЕПОРТ! #Imperial translate
+  description: Случайным образом телепортирует вас на большое расстояние. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -154,8 +154,8 @@
 
 - type: entity
   id: ActionActivateDnaScramblerImplant
-  name: Scramble DNA
-  description:  Randomly changes your name and appearance.
+  name: Смена ДНК #Imperial translate
+  description:  Случайным образом меняет ваше имя и внешний вид. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -170,7 +170,7 @@
 - type: entity
   id: ActionToggleSuitPiece
   name: Переключить часть костюма #Imperial translate
-  description: Remember to equip the important pieces of your suit before going into action.
+  description: Не забудьте экипировать важные части вашего костюма, прежде чем приступить к действию. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -180,8 +180,8 @@
 
 - type: entity
   id: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Боевой режим[/color]" #Imperial translate
+  description: Переключить боевой режим #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -194,8 +194,8 @@
 - type: entity
   id: ActionCombatModeToggleOff
   parent: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Боевой режим[/color]" #Imperial translate
+  description: Переключить боевой режим #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -205,8 +205,8 @@
 
 - type: entity
   id: ActionChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
+  name: Установить имя #Imperial translate
+  description: Измените имя, которое слышат другие, на что-нибудь другое. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -215,8 +215,8 @@
 
 - type: entity
   id: ActionVendingThrow
-  name: Dispense Item
-  description: Randomly dispense an item from your stock.
+  name: Выдача предмета #Imperial translate
+  description: Случайным образом выдет предмет из вашего запаса. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -225,8 +225,8 @@
 
 - type: entity
   id: ActionArtifactActivate
-  name: Activate Artifact
-  description: Immediately activates your current artifact node.
+  name: Активировать Артефакт #Imperial translate
+  description: Немедленно активирует текущий узел артефакта. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -238,8 +238,8 @@
 
 - type: entity
   id: ActionToggleBlock
-  name: Block
-  description: Raise or lower your shield.
+  name: Блок #Imperial translate
+  description: Поднимите или опустите свой щит. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -249,8 +249,8 @@
 
 - type: entity
   id: ActionClearNetworkLinkOverlays
-  name: Clear network link overlays
-  description: Clear network link overlays.
+  name: Очистить наложения сетевых ссылок #Imperial translate
+  description: Удаление наложений сетевых ссылок. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -262,8 +262,8 @@
 
 - type: entity
   id: ActionAnimalLayEgg
-  name: Lay egg
-  description: Uses hunger to lay an egg.
+  name: Снести яйцо #Imperial translate
+  description: Использует голод, чтобы отложить яйцо. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -273,8 +273,8 @@
 
 - type: entity
   id: ActionSleep
-  name: Sleep
-  description: Go to sleep.
+  name: Спать #Imperial translate
+  description: Пойти спать. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -284,8 +284,8 @@
 
 - type: entity
   id: ActionWake
-  name: Wake up
-  description: Stop sleeping.
+  name: Проснуться #Imperial translate
+  description: Прекратить спать. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -295,8 +295,8 @@
 
 - type: entity
   id: ActionActivateHonkImplant
-  name: Honk
-  description: Activates your honking implant, which will produce the signature sound of the clown.
+  name: Хонк #Imperial translate
+  description: Активирует сигнальный имплант, который издает характерный звук клоуна. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -306,8 +306,8 @@
 
 - type: entity
   id: ActionFireStarter
-  name: Ignite
-  description: Ignites enemies in a radius around you.
+  name: Зажгите #Imperial translate
+  description: Поджигает врагов в радиусе вокруг вас. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
@@ -318,8 +318,8 @@
 
 - type: entity
   id: ActionToggleEyes
-  name: Open/Close eyes
-  description: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+  name: Открыть/Закрыть глаза #Imperial translate
+  description: Закройте глаза, чтобы защитить своих глазки, или откройте глаза, чтобы насладиться красивыми огнями. #Imperial translate
   noSpawn: true
   components:
   - type: InstantAction
