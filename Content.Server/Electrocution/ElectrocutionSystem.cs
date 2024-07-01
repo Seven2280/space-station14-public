@@ -32,9 +32,6 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
-// Imperial Space zombie-fix Imports Start
-using Content.Shared.Prying.Systems;
-// Imperial Space zombie-fix Imports End
 
 namespace Content.Server.Electrocution;
 
@@ -85,7 +82,6 @@ public sealed class ElectrocutionSystem : SharedElectrocutionSystem
         SubscribeLocalEvent<ElectrifiedComponent, AttackedEvent>(OnElectrifiedAttacked);
         SubscribeLocalEvent<ElectrifiedComponent, InteractHandEvent>(OnElectrifiedHandInteract);
         SubscribeLocalEvent<ElectrifiedComponent, InteractUsingEvent>(OnElectrifiedInteractUsing);
-        SubscribeLocalEvent<ElectrifiedComponent, PryingEvent>(OnPrying); // Imperial Space zombie-fix
         SubscribeLocalEvent<RandomInsulationComponent, MapInitEvent>(OnRandomInsulationMapInit);
         SubscribeLocalEvent<PoweredLightComponent, AttackedEvent>(OnLightAttacked);
 
@@ -176,15 +172,6 @@ public sealed class ElectrocutionSystem : SharedElectrocutionSystem
             TryDoElectrifiedAct(uid, args.OtherEntity, 1, electrified);
     }
 
-    // Imperial Space zombie-fix Start
-    private void OnPrying(EntityUid uid, ElectrifiedComponent electrified, PryingEvent args)
-    {
-        if (!electrified.OnBump) return;
-
-        args.Cancel();
-        TryDoElectrifiedAct(uid, args.User, 1, electrified);
-    }
-    // Imperial Space zombie-fix Imports End
     private void OnElectrifiedAttacked(EntityUid uid, ElectrifiedComponent electrified, AttackedEvent args)
     {
         if (!electrified.OnAttacked)
