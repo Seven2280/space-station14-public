@@ -7,7 +7,7 @@ using Robust.Shared.Utility;
 namespace Content.Server.Administration.Commands;
 
 [UsedImplicitly]
-[AdminCommand(AdminFlags.Stealth)]
+[AdminCommand(AdminFlags.Host)] //Imperial edit
 public sealed class StealthminCommand : LocalizedCommands
 {
     public override string Command => "stealthmin";
