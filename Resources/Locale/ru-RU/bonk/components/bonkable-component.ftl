@@ -1,2 +1,2 @@
-bonkable-success-message-others = { CAPITALIZE($user) } стукается головой об { $bonkable }
+bonkable-success-message-others = { CAPITALIZE(THE($user)) } стукает голову { POSS-ADJ($user) } о { THE($bonkable) }
 bonkable-success-message-user = Вы стукаетесь об { $bonkable }

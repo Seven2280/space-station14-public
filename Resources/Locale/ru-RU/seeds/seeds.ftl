@@ -1,6 +1,6 @@
 # Nouns
-seeds-noun-seeds = семян
-seeds-noun-spores = спор
+seeds-noun-seeds = семена
+seeds-noun-spores = споры
 
 # Seeds
 seeds-wheat-name = пшеница
@@ -19,6 +19,8 @@ seeds-garlic-name = чеснок
 seeds-garlic-display-name = чесночный стебель
 seeds-lemon-name = лимон
 seeds-lemon-display-name = лимонное дерево
+seeds-lemoon-name = лимоон
+seeds-lemoon-display-name = лимоонное дерево
 seeds-lime-name = лайм
 seeds-lime-display-name = лаймовое дерево
 seeds-orange-name = апельсин
@@ -69,6 +71,10 @@ seeds-poppy-name = мак
 seeds-poppy-display-name = мак
 seeds-aloe-name = алоэ
 seeds-aloe-display-name = алоэ
+seeds-laughin-pea-name = смеющийся горох
+seeds-laughin-pea-display-name = смеющийся горох
+seeds-lily-name = лилия
+seeds-lily-display-name = лилия
 seeds-lingzhi-name = линчжи
 seeds-lingzhi-display-name = линчжи
 seeds-ambrosiavulgaris-name = амброзия вульгарис
@@ -85,6 +91,8 @@ seeds-rice-name = рис
 seeds-rice-display-name = стебли риса
 seeds-soybeans-name = соя
 seeds-soybeans-display-name = соя
+seeds-spacemans-trumpet-name = растение труб космонавтов
+seeds-spacemans-trumpet-display-name = растение труб космонавтов
 seeds-koibean-name = коибобы
 seeds-koibean-display-name = коибобы
 seeds-watermelon-name = арбуз
@@ -97,3 +105,9 @@ seeds-berries-name = ягоды
 seeds-berries-display-name = ягодный куст
 seeds-bungo-name = бунго
 seeds-bungo-display-name = куст бунго
+seeds-pea-name = горох
+seeds-pea-display-name = гороховая лоза
+seeds-pumpkin-name = тыква
+seeds-pumpkin-display-name = тыквы
+seeds-cotton-name = шёлк
+seeds-cotton-display-name = шёлк
