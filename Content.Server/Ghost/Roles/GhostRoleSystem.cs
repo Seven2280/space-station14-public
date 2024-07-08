@@ -69,8 +69,8 @@ namespace Content.Server.Ghost.Roles
             SubscribeLocalEvent<GhostTakeoverAvailableComponent, MindRemovedMessage>(OnMindRemoved);
             SubscribeLocalEvent<GhostTakeoverAvailableComponent, MobStateChangedEvent>(OnMobStateChanged);
             SubscribeLocalEvent<GhostRoleComponent, MapInitEvent>(OnMapInit);
-            SubscribeLocalEvent<GhostRoleComponent, ComponentStartup>(OnRoleStartup);
-            SubscribeLocalEvent<GhostRoleComponent, ComponentShutdown>(OnRoleShutdown);
+            SubscribeLocalEvent<GhostRoleComponent, ComponentStartup>(OnStartup);
+            SubscribeLocalEvent<GhostRoleComponent, ComponentShutdown>(OnShutdown);
             SubscribeLocalEvent<GhostRoleComponent, EntityPausedEvent>(OnPaused);
             SubscribeLocalEvent<GhostRoleComponent, EntityUnpausedEvent>(OnUnpaused);
             SubscribeLocalEvent<GhostRoleRaffleComponent, ComponentInit>(OnRaffleInit);
@@ -643,12 +643,12 @@ namespace Content.Server.Ghost.Roles
                 RemCompDeferred<GhostRoleComponent>(ent);
         }
 
-        private void OnRoleStartup(Entity<GhostRoleComponent> ent, ref ComponentStartup args)
+        private void OnStartup(Entity<GhostRoleComponent> ent, ref ComponentStartup args)
         {
             RegisterGhostRole(ent);
         }
 
-        private void OnRoleShutdown(Entity<GhostRoleComponent> role, ref ComponentShutdown args)
+        private void OnShutdown(Entity<GhostRoleComponent> role, ref ComponentShutdown args)
         {
             UnregisterGhostRole(role);
         }
