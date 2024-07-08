@@ -106,6 +106,10 @@ chat-speech-verb-large-mob-2 = рычит
 chat-speech-verb-monkey-1 = умничает
 chat-speech-verb-monkey-2 = визгает
 
+chat-speech-verb-parrot-1 = кричит
+chat-speech-verb-parrot-2 = чирикает
+chat-speech-verb-parrot-3 = щебечет
+
 chat-speech-verb-cluwne-1 = хихикает
 chat-speech-verb-cluwne-2 = хохочет
 chat-speech-verb-cluwne-3 = ржёт
