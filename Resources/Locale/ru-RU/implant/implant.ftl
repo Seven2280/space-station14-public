@@ -1,6 +1,7 @@
 ﻿implanter-component-implanting-target = {$user} пытается вам что-то вживить!
 implanter-draw-failed-permanent = {$implant} в {$target} слился организмом и не может быть извлечен!
 implanter-draw-failed = Вы попытались извлечь имплант, но ничего не обнаружили.
+implanter-component-implant-already = {$target} уже имеет {$implant}!
 
 
 implanter-draw-text = Извлечение
