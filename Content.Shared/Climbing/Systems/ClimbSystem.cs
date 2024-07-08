@@ -15,7 +15,6 @@ using Content.Shared.Popups;
 using Content.Shared.Stunnable;
 using Content.Shared.Verbs;
 using Robust.Shared.Audio.Systems;
-using Robust.Shared.Containers; // Imperial bug fix
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Collision.Shapes;
 using Robust.Shared.Physics.Components;
@@ -217,11 +216,6 @@ public sealed partial class ClimbSystem : VirtualController
         RaiseLocalEvent(climbable, ref ev);
         if (ev.Cancelled)
             return false;
-
-        // imperial climb bugfix begin
-        // if (TryComp<ContainerManagerComponent>(climbable, out var man) && man.ContainsEntity(entityToMove))
-        //     return false;
-        // imperial climb bugfix end
 
         var args = new DoAfterArgs(EntityManager, user, comp.ClimbDelay, new ClimbDoAfterEvent(),
             entityToMove,
