@@ -13,3 +13,5 @@ ent-ClothingUniformRandomShorts = яркие штаны
     .desc = { ent-ClothingUniformRandom.desc }
 ent-ClothingUniformRandomShirt = яркий костюм
     .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomStandart = красочный костюм
+    .desc = { ent-ClothingUniformRandom.desc }

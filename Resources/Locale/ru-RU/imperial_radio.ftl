@@ -79,7 +79,7 @@ ent-EncryptionKeyRadioCMD = Ключ шифрования Командовани
     .desc = Отдельный канал связи.
     .suffix = Кастомный ключ, Felix
 
-ent-EncryptionKeyRadioPilots = Ключ шифрования Пилоты
+ent-EncryptionKeyRadioPiloting = Ключ шифрования Пилоты
     .desc = Отдельный канал связи.
     .suffix = Кастомный ключ, Felix
 
