@@ -52,6 +52,6 @@ ent-ImplanterAdmeme = { ent-BaseImplanter }
 ent-ScramImplanter = имплантер
     .desc = { ent-BaseImplanter.desc }
     .suffix = Побег
-ent-DeathAcidifierImplanter =
+ent-DeathAcidifierImplanter = имплантер кислотной смерти
     .desc = { ent-BaseImplanter.desc }
     .suffix = Кислота

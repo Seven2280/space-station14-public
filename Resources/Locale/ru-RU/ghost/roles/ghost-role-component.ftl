@@ -1,5 +1,6 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
-ghost-role-component-default-rules = Вы не помните ничего из своей предыдущей жизни, если администратор не сказал вам обратное.
+ghost-role-component-default-rules = К вам применяются все обычные правила, если администратор не скажет вам иное.
+                                     Вы не помните ничего из своей предыдущей жизни, если администратор не сказал вам обратное.
                                      Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
                                      Вам [color=red]НЕЛЬЗЯ[/color] помнить, имя, внешность и т.д. вашего предыдущего персонажа.
 
@@ -210,6 +211,7 @@ ghost-role-information-syndicate-monkey-reinforcement-name = Обезьяний 
 ghost-role-information-syndicate-monkey-reinforcement-description = Кому-то нужно подкрепление. Вы, натренированная обезьяна, поможете им.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Вы - антагонист. Работайте с теми, кто вас вызвал, и не причиняйте им вреда.
 
-ghost-role-information-syndicate-artifact-name = разумный артефакт
-ghost-role-information-syndicate-monkey-reinforcement-description = Реализуйте свои жуткие прихоти.
-                                                                    Насильно активируйте свои узлы во благо или во зло.
+ghost-role-information-artifact-name = разумный артефакт
+ghost-role-information-artifact-description =
+      Реализуйте свои жуткие прихоти.
+      Насильно активируйте свои узлы во благо или во зло.
