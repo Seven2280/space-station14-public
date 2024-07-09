@@ -81,6 +81,7 @@
     - key: enum.WiresUiKey.Key
       type: WiresBoundUserInterface
   - type: Airtight
+    openUnlitVisible: true #resprite
   - type: Occluder
   - type: Damageable
     damageContainer: StructuralInorganic
