@@ -31,19 +31,19 @@
     - id: ShellShotgunMute
       amount: 8
 
-- type: entity
-  name: syndie mime briefcase
-  parent: BriefcaseSyndieMime
-  id: BriefcaseSyndieMimeFilled
-  description: A handy briefcase.
-  suffix: Syndicate, Filled
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponShotgunMimeCane
-      - id: BoxMimeMute
-      - id: ClothingUniformJumpsuitMime
-      - id: ClothingHandsGlovesColorRed
-      - id: ClothingNeckShawlRed
-      - id: ClothingMaskSexyMime
-      - id: ClothingHeadHatBeretBonBon
+# - type: entity
+#   name: syndie mime briefcase
+#   parent: BriefcaseSyndieMime
+#   id: BriefcaseSyndieMimeFilled
+#   description: A handy briefcase.
+#   suffix: Syndicate, Filled
+#   components:
+#   - type: StorageFill
+#     contents:
+#       - id: WeaponShotgunMimeCane
+#       - id: BoxMimeMute
+#       - id: ClothingUniformJumpsuitMime
+#       - id: ClothingHandsGlovesColorRed
+#       - id: ClothingNeckShawlRed
+#       - id: ClothingMaskSexyMime
+#       - id: ClothingHeadHatBeretBonBon

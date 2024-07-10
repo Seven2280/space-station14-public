@@ -10,14 +10,14 @@
   - type: Item
     sprite: Imperial/mime/mime_briefcase.rsi
 
-- type: entity
-  name: syndie mime briefcase
-  parent: BriefcaseSyndieBase
-  id: BriefcaseSyndieMime
-  description: A handy briefcase.
-  components:
-  - type: Sprite
-    sprite: Imperial/mime/mime_briefcase.rsi
-    state: icon
-  - type: Item
-    sprite: Imperial/mime/mime_briefcase.rsi
+# - type: entity
+#   name: syndie mime briefcase
+#   parent: BriefcaseSyndieBase
+#   id: BriefcaseSyndieMime
+#   description: A handy briefcase.
+#   components:
+#   - type: Sprite
+#     sprite: Imperial/mime/mime_briefcase.rsi
+#     state: icon
+#   - type: Item
+#     sprite: Imperial/mime/mime_briefcase.rsi
