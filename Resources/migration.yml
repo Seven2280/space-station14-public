@@ -8,6 +8,13 @@
 # WallSolid: Window
 # Table: null
 
+#IMPERIAL
+# 2024-05-27 Imperial Space TFG works
+DeliciousPresentableRag: PresentableRag
+WinterBox: null
+ToughguysSpawner: ToughguysPlushieSpawner
+ClothingBackpackBackbow: ClothingBackpackMaidBackbow
+
 # 2023-07-03
 ClothingHeadHelmetHelmet: ClothingHeadHelmetBasic
 ClothingHeadHelmetHelmetOld: ClothingHeadHelmetBasic
