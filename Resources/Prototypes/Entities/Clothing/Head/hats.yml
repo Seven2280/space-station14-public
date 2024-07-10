@@ -476,30 +476,17 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: [ClothingHeadBase, BaseFoldable]
+  parent: ClothingHeadBase
   id: ClothingHeadHatUshanka
   name: ushanka
   description: "Perfect for winter in Siberia, da?"
   components:
-  - type: Clothing
-    sprite: Clothing/Head/Hats/ushanka.rsi
-  - type: Appearance
-  - type: AddAccentClothing
-    accent: RussianAccent
-  - type: Foldable
-    canFoldInsideContainer: true
-  - type: FoldableClothing
-    foldedEquippedPrefix: up
-    foldedHeldPrefix: up
   - type: Sprite
     sprite: Clothing/Head/Hats/ushanka.rsi
-    layers:
-    - state: icon
-      map: [ "unfoldedLayer" ]
-    - state: icon-up
-      map: ["foldedLayer"]
-      visible: false
-
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka.rsi
+  - type: AddAccentClothing
+    accent: RussianAccent
 
 - type: entity
   parent: ClothingHeadBase
