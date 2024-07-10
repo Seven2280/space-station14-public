@@ -6,3 +6,5 @@ store-ui-traitor-flavor = Авторское право (С) НТ-30643
 store-ui-traitor-warning = Оперативники должны блокировать свои аплинки после использования, чтобы избежать обнаружения.
 
 store-withdraw-button-ui = Вывести {$currency}
+
+store-not-account-owner = Этот {$store} не привязан к вам!

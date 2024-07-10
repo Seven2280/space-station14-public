@@ -210,5 +210,7 @@ ent-TurboItemRechargerCircuitboard = турбо зарядник (машинна
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-CondenserMachineCircuitBoard = конденсатор (машинная плата)
 
-ent-SpaceHeaterMachineCircuitBoard = машинная плата обогревателя
+ent-SpaceHeaterMachineCircuitBoard = обогреватель (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
+ent-ReagentGrinderIndustrialMachineCircuitboard = промышленный измельчитель реагентов (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
