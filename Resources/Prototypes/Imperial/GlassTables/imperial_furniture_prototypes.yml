@@ -145,17 +145,17 @@
     graph: Table
     node: TablePlasmaGlassReinforced
 
-- type: entity
-  id: GoldToilet
-  parent: ToiletEmpty
-  name: gold toilet
-  desc: Shiny gold toilet for realy reach man
-  components:
-    - type: Sprite
-      sprite: Imperial/GlassTables/goldToilet.rsi
-      state: closed_toilet_seat_up
-    - type: Construction
-      graph: GoldToiletGraph
-      node: goldtoilet
-    - type: StaticPrice
-      price: 2000
+# - type: entity
+#   id: GoldToilet
+#   parent: ToiletEmpty
+#   name: gold toilet
+#   desc: Shiny gold toilet for realy reach man
+#   components:
+#     - type: Sprite
+#       sprite: Imperial/GlassTables/goldToilet.rsi
+#       state: closed_toilet_seat_up
+#     - type: Construction
+#       graph: GoldToiletGraph
+#       node: goldtoilet
+#     - type: StaticPrice
+#       price: 2000
