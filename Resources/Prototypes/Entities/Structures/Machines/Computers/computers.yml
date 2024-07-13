@@ -280,6 +280,13 @@
     color: "#1f8c28"
   - type: Computer
     board: MedicalRecordsComputerCircuitboard
+  - type: MedicalRecordsConsole
+  - type: UserInterface
+    interfaces:
+    - key: enum.MedicalRecordsConsoleKey.Key
+      type: MedicalRecordsConsoleBoundUserInterface
+  - type: ActivatableUI
+    key: enum.MedicalRecordsConsoleKey.Key
 
 - type: entity
   parent: BaseComputer

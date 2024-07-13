@@ -1,0 +1,11 @@
+# "funny" placeholders of extremely minor/non-crimes for wanted reason dialog
+- type: dataset
+  id: MedicalRecordsDeadReasonPlaceholders
+  values:
+  - ударился головой
+  - жертва клоуна
+  - поскользнулся на кожуре
+  - порезался листом бумаги
+  - неудачное сальто
+  - скончался от смеха
+  - умер от несварения
