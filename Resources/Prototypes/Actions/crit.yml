@@ -33,7 +33,7 @@
 - type: entity
   id: ActionCritLastWords
   name: Скажи последние слова #imperial translate
-  description: Прошепчите свои последние слова всем, кто рядом, а затем поддайтесь своей судьбе. У вас есть только 30 персонажей для работы. #imperial translate
+  description: Прошепчите свои последние слова всем, кто рядом, а затем поддайтесь своей судьбе. У вас есть только 30 символов для последнего слова. #imperial translate
   noSpawn: true
   components:
   - type: InstantAction

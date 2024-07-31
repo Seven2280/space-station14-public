@@ -1,6 +1,6 @@
 ent-BorgModuleSyndicateWeapon = оружейный модуль борга
     .desc = Технология, дающая боргу новые способности.
-ent-BorgModuleL6C = модуль юорга L6C ROW
+ent-BorgModuleL6C = модуль борга L6C ROW
     .desc = Модуль с L6C.
 ent-BorgModuleAdvancedCleaning = модуль борга усовершественная очистка
     .desc = Технология, дающая боргу новые способности.
