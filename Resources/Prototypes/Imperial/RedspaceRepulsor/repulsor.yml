@@ -1,0 +1,45 @@
+- type: entity
+  name: Redspace Repulsor
+  parent: ClothingHandsBase
+  id: WeaponRedspaceRepulsor
+  description: The Redspace Repulsor is a high-tech weapon designed for agents aimed at neutralizing opponents. This glove, made from lightweight and durable material, utilizes "Redspace" energy to create powerful kinetic impulses capable of pushing enemies away from a distance. It features a touchscreen for quick mode adjustments, buttons on the fingers, and gesture control for instant activation. Its compact design and bright LEDs ensure stealth and readiness for action. The Redspace Repulsor is the perfect tool for executing complex missions with a high degree of efficiency and precision.
+  components:
+  - type: Sprite
+    sprite: Imperial/RedspaceRepulsor/repulsor.rsi
+  - type: Clothing
+    sprite: Imperial/RedspaceRepulsor/repulsor.rsi
+    state: icon
+  - type: Item
+    size: Large
+  - type: MeleeWeapon
+    attackRate: 0.8
+    angle: 0
+    animation: WeaponArcFist
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Heat: 12.5
+        Blunt: 12.5
+    soundHit:
+      path: /Audio/Imperial/kinetic_energy_mono.ogg
+      params:
+        volume: -3
+  - type: MeleeThrowOnHit
+    lifetime: 0.7 # Отбрасывает на чуть больше чем 7 тайлов
+  - type: FingerprintMask
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+
+- type: entity
+  name: Redspace Repulsor
+  parent: WeaponRedspaceRepulsor
+  id: WeaponRedspaceRepulsorNukies
+  description: Redspace Repulsor is a high-tech weapon for mercenaries, the Gorlex, is designed to neutralize opponents. This glove, made from lightweight and durable material, uses 'Redspace' energy to create powerful kinetic impulses capable of pushing enemies away at a distance. It is equipped with a touchscreen, buttons on the fingers, and gesture control for instant activation. The compact design and bright LEDs ensure stealth and readiness for action. The Redspace Repulsor is the perfect tool for completing complex missions with a high degree of efficiency and accuracy. This model has a faster repulsion effect, although it sacrifices some range compared to the agent model
+  components:
+  - type: MeleeThrowOnHit
+    lifetime: 0.2
+    speed: 23   #Отбрасывает на 6.2 тайла

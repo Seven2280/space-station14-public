@@ -1,0 +1,33 @@
+- type: listing
+  id: UplinkRedspaceRepulsor
+  name: uplink-redspace-repulsor-name
+  description: uplink-redspace-repulsor-desc
+  productEntity: WeaponRedspaceRepulsor
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeaponry
+  conditions:
+    - !type:StoreWhitelistCondition
+      blacklist:
+        tags:
+          - NukeOpsUplink
+
+- type: listing
+  id: UplinkRedspaceRepulsorNukies
+  name: uplink-redspace-repulsor-nukies-name
+  description: uplink-redspace-repulsor-nukies-desc
+  productEntity: WeaponRedspaceRepulsorNukies
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkWeaponry
+  conditions:
+   - !type:StoreWhitelistCondition
+     whitelist:
+      tags:
+         - NukeOpsUplink
+   - !type:BuyerWhitelistCondition
+      blacklist:
+      components:
+      - SurplusBundle
