@@ -2,7 +2,7 @@
   name: Redspace Repulsor
   parent: ClothingHandsBase
   id: WeaponRedspaceRepulsor
-  description: The Redspace Repulsor is a high-tech weapon designed for agents aimed at neutralizing opponents. This glove, made from lightweight and durable material, utilizes "Redspace" energy to create powerful kinetic impulses capable of pushing enemies away from a distance. It features a touchscreen for quick mode adjustments, buttons on the fingers, and gesture control for instant activation. Its compact design and bright LEDs ensure stealth and readiness for action. The Redspace Repulsor is the perfect tool for executing complex missions with a high degree of efficiency and precision.
+  description: Utilizes "Redspace" energy to create powerful kinetic impulses capable of pushing enemies away from a distance. 
   components:
   - type: Sprite
     sprite: Imperial/RedspaceRepulsor/repulsor.rsi
@@ -32,13 +32,13 @@
     - WhitelistChameleon
   - type: Insulated
   - type: Fiber
-    fiberMaterial: fibers-insulative
+    fiberMaterial: fibers-nanomachines
 
 - type: entity
   name: Redspace Repulsor
   parent: WeaponRedspaceRepulsor
   id: WeaponRedspaceRepulsorNukies
-  description: Redspace Repulsor is a high-tech weapon for mercenaries, the Gorlex, is designed to neutralize opponents. This glove, made from lightweight and durable material, uses 'Redspace' energy to create powerful kinetic impulses capable of pushing enemies away at a distance. It is equipped with a touchscreen, buttons on the fingers, and gesture control for instant activation. The compact design and bright LEDs ensure stealth and readiness for action. The Redspace Repulsor is the perfect tool for completing complex missions with a high degree of efficiency and accuracy. This model has a faster repulsion effect, although it sacrifices some range compared to the agent model
+  description: Utilizes "Redspace" energy to create powerful kinetic impulses capable of pushing enemies away from a distance. This model has a faster repulsion effect, although it sacrifices some range compared to the agent model
   components:
   - type: MeleeThrowOnHit
     lifetime: 0.2
