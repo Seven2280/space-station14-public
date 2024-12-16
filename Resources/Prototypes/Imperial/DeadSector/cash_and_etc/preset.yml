@@ -11,6 +11,7 @@
   - FegerationTerminalEquipment
   - FegerationTerminalUniforms
   - FegerationTerminalMedicine
+  - FegerationTerminalProvisions
   - FegerationTerminalOther
   currencyWhitelist:
   - FederationCash

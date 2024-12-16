@@ -7,4 +7,5 @@ FegerationTerminalBackPacks = Сумки
 FegerationTerminalEquipment = Экипировка
 FegerationTerminalUniforms = Униформы
 FegerationTerminalMedicine = Медикаменты
+FegerationTerminalProvisions = Провиант
 FegerationTerminalOther = Прочее

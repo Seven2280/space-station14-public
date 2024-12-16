@@ -22,3 +22,6 @@ ent-DeadSectorLaryngealTube = гортанная трубка
 ent-DeadSectorTourniquet = жгут
     .desc = Усиленно восстанавливает кровопотерю. Не тратится.
     .suffix = { "DeadSector" }
+ent-RadiationMedipenDeadSector = антирадиационный медипен
+    .desc = Антирадиактивен.
+    .suffix = { "DeadSector" }

@@ -2276,6 +2276,58 @@
   categories:
   - FegerationTerminalMedicine
 
+# FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalMeatCanDeadSector
+  name: MeatCanDeadSector-name
+  description: MeatCanDeadSector-des
+  productEntity: MeatCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalTomatoCanDeadSector
+  name: TomatoCanDeadSector-name
+  description: TomatoCanDeadSector-des
+  productEntity: TomatoCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalBeefCanDeadSector
+  name: BeefCanDeadSector-name
+  description: BeefCanDeadSector-des
+  productEntity: BeefCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalSardinesCanDeadSector
+  name: SardinesCanDeadSector-name
+  description: SardinesCanDeadSector-des
+  productEntity: SardinesCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalPorkCanDeadSector
+  name: PorkCanDeadSector-name
+  description: PorkCanDeadSector-des
+  productEntity: PorkCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
 # FegerationTerminalOther
 
 - type: listing

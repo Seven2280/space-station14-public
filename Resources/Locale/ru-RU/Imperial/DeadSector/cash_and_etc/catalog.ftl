@@ -386,6 +386,18 @@ ClothingUniformScientificGreen-des = Удобная форма
 ClothingUniformScientificOrange-name = научный комбинезон
 ClothingUniformScientificOrange-des = Удобная форма
 
+# FederationTerminalProvisions
+MeatCanDeadSector-name = мясная консерва
+MeatCanDeadSector-des = Консерва богата железом, полезным для здоровья. А мясо нет.
+TomatoCanDeadSector-name = томатная консерва
+TomatoCanDeadSector-des = Как у бабушки в погребе.
+BeefCanDeadSector-name = консерва с говядиной
+BeefCanDeadSector-des = Питательная консерва. Непитательная говядина.
+SardinesCanDeadSector-name = консерва с сардинами
+SardinesCanDeadSector-des = Чрезвычайно воняет.
+PorkCanDeadSector-name = консерва со свининой
+PorkCanDeadSector-des = Консерва, возможно, наполненная питательными веществами.
+
 # FegerationTerminalMedicine
 SurgeryTourniquet-name = Медицинский турникет
 SurgeryTourniquet-des = Способен остановить тяжелое кровотечение.
