@@ -256,3 +256,40 @@
       prototypes:
         - USSPAgitcomPreset
       chance: 1
+
+#офицер
+
+- type: entity
+  #noSpawn: true
+  id: USSPofficerSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-OFFICER-ROLE-NAME
+      description: USSP-OFFICER-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPOfficerPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPofficerSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPOfficerPreset
+      chance: 1

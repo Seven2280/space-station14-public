@@ -1,5 +1,5 @@
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPSoldierPreset
   name: ERT leader
@@ -19,7 +19,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPSoldierSergeantPreset
   name: ERT leader
@@ -39,7 +39,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPStormPreset
   name: ERT leader
@@ -59,7 +59,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPStormSergeantPreset
   name: ERT leader
@@ -79,7 +79,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPGuardPreset
   name: ERT leader
@@ -99,7 +99,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPBattlecomPreset
   name: ERT leader
@@ -119,7 +119,7 @@
       randomizeName: false
 
 - type: entity
-  noSpawn: false
+  noSpawn: true
   parent: MobHuman
   id: USSPAgitcomPreset
   name: ERT leader
@@ -135,5 +135,25 @@
       state: ertleadereva
     - type: Loadout
       prototypes: [ USSPAgitcomGear ]
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  noSpawn: true
+  parent: MobHuman
+  id: USSPOfficerPreset
+  name: ERT leader
+  suffix: EVA
+  components:
+    - type: RandomMetadata
+      nameSegments:
+      - officer
+      - names_last
+    - type: Sprite
+      netsync: false
+      sprite: Markers/jobs.rsi
+      state: ertleadereva
+    - type: Loadout
+      prototypes: [ USSPKGBofcGear ]
     - type: RandomHumanoidAppearance
       randomizeName: false

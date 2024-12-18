@@ -98,7 +98,7 @@
     eyes: USSPGlassesWar
     gloves: USSPRedGloves
     ears: ClothingHeadsetSSSP
-    belt: USSPComissarWeaponizer
+    belt: USSPComissarRevolver
     id: USSPPDAComissar
 
 - type: startingGear
@@ -115,4 +115,19 @@
     gloves: USSPRedGloves
     ears: ClothingHeadsetSSSP
     belt: USSPComissarRevolver
+    id: USSPPDAComissar
+
+- type: startingGear
+  id: USSPKGBofcGear
+  equipment:
+    jumpsuit: USSPstormdivisionUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsJack
+    head: USSPKGBhat
+    outerClothing: USSPKGBvest
+    mask: USSPstormdivisionMask
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: USSPstormdivisionGloves
+    ears: ClothingHeadsetSSSP
+    belt: USSPBeltAssault
     id: USSPPDAComissar

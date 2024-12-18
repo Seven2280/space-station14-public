@@ -4,6 +4,9 @@
 - type: Tag
   id: USSPRPKMAG
 
+- type: Tag
+  id: PPSHcaliber
+
 - type: entity
   name: L6 SAW
   id: USSPWeaponPPSH
@@ -44,6 +47,35 @@
         blacklist:
           tags:
             - MagazineLightRifleBox
+      gun_chamber:
+        name: Chamber
+        startingItem: #none
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+
+- type: entity
+  id: USSPcaliberPPSH
+  name: cartridge (.35 auto)
+  parent: BaseCartridgePistol
+  components:
+  - type: CartridgeAmmo
+    proto: USSPBulletPPSH 
+  - type: Tag
+    tags:
+      - PPSHcaliber
+
+- type: entity
+  id: USSPBulletPPSH
+  name: bullet (.35 auto)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 13
 
 - type: entity
   id: USSPppshMAG
@@ -54,8 +86,11 @@
     tags:
       - USSPppshMAG
   - type: BallisticAmmoProvider
-    proto: CartridgeLightRifle
-    capacity: 75
+    proto: USSPcaliberPPSH
+    capacity: 35
+    whitelist:
+      tags:
+        - PPSHcaliber
   - type: Item
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/maxim.rsi
@@ -100,11 +135,11 @@
             - USSPRPKMAG
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: CartridgePistol
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgePistol
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -124,8 +159,11 @@
     tags:
       - USSPRPKMAG
   - type: BallisticAmmoProvider
-    proto: CartridgeLightRifle
-    capacity: 150
+    proto: CartridgePistol
+    capacity: 100
+    whitelist:
+      tags:
+        - CartridgePistol
   - type: Item
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/maxim.rsi
