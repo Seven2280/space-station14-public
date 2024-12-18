@@ -32,7 +32,7 @@
     outerClothing: USSPSoldierCoat
     ears: ClothingHeadsetSSSP
     belt: ClothingBeltStorageWaistbag
-    id: USSPPDA
+    id: USSPPDASergeant
 
 - type: startingGear
   id: USSPStormGear
@@ -64,7 +64,7 @@
     outerClothing: USSPstormdivisionCoat
     ears: ClothingHeadsetSSSP
     belt: USSPBeltAssault
-    id: USSPPDA
+    id: USSPPDASergeant
 
 - type: startingGear
   id: USSPGuardsmenGear
@@ -99,7 +99,7 @@
     gloves: USSPRedGloves
     ears: ClothingHeadsetSSSP
     belt: USSPComissarWeaponizer
-    id: USSPPDA
+    id: USSPPDAComissar
 
 - type: startingGear
   id: USSPAgitcomGear
@@ -115,4 +115,4 @@
     gloves: USSPRedGloves
     ears: ClothingHeadsetSSSP
     belt: USSPComissarRevolver
-    id: USSPPDA
+    id: USSPPDAComissar
