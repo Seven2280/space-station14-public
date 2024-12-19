@@ -17,3 +17,8 @@
   id: guard
   values:
   - Гвардеец
+
+- type: dataset
+  id: officer
+  values:
+  - Офицер

@@ -99,3 +99,25 @@
       drawdepth: Mobs
       noRot: true
       offset: "0.0,0.0"
+
+- type: entity
+  id: USSPsupplyPPSH
+  parent: USSPCrateSecure
+  name: USSPCrateSecure
+  description: 90 sheets of glass, packed with care.
+  components:
+  - type: StorageFill
+    contents:
+      - id: USSPppshMAG
+        amount: 20
+
+- type: entity
+  id: USSPsupplyRPK
+  parent: USSPCrateSecure
+  name: USSPCrateSecure
+  description: 90 sheets of glass, packed with care.
+  components:
+  - type: StorageFill
+    contents:
+      - id: USSPRPKMAG
+        amount: 18
