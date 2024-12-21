@@ -57,3 +57,53 @@
   - type: Sprite
     sprite: Imperial/DeadSector/posters.rsi
     state: poster-6
+
+- type: entity
+  parent: PosterBase
+  id: DeadSectorPoster7
+  name: Test
+  description: Test
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/posters.rsi
+    state: poster-7
+
+- type: entity
+  parent: PosterBase
+  id: DeadSectorPoster8
+  name: Test
+  description: Test
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/posters.rsi
+    state: poster-8
+
+- type: entity
+  parent: PosterBase
+  id: DeadSectorPoster9
+  name: Test
+  description: Test
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/posters.rsi
+    state: poster-9
+
+- type: entity
+  parent: PosterBase
+  id: DeadSectorPoster10
+  name: Test
+  description: Test
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/posters.rsi
+    state: poster-10
+
+- type: entity
+  parent: PosterBase
+  id: DeadSectorPoster11
+  name: Test
+  description: Test
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/posters.rsi
+    state: poster-11

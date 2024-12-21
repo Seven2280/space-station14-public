@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10.3
+        Piercing: 10.7
 
 - type: entity
   id: Astra903BulletPiercing
@@ -18,5 +18,5 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 6.1
+        Piercing: 6.4
     ignoreResistances: true

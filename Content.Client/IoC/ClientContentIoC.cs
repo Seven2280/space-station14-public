@@ -22,6 +22,8 @@ using Content.Client.Guidebook;
 using Content.Client.Replay;
 using Content.Shared.Administration.Managers;
 using Content.Client.Corvax.Sponsors;
+using Content.Client.Imperial.ShowPopupOnJoin; // Imperial ShowPopupOnJoin
+using Content.Shared.Imperial.ICCVar;
 
 
 namespace Content.Client.IoC
@@ -51,6 +53,7 @@ namespace Content.Client.IoC
             IoCManager.Register<DocumentParsingManager>();
             IoCManager.Register<ContentReplayPlaybackManager, ContentReplayPlaybackManager>();
             IoCManager.Register<SponsorsManager>(); // Corvax-Sponsors
+            IoCManager.Register<ShowPopupOnJoin>(); // Imperial ShowPopupOnJoin
         }
     }
 }

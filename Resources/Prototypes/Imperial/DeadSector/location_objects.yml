@@ -253,3 +253,119 @@
       radius: 1.5
       energy: 1.6
       color: "#ffe4ce"
+
+- type: entity
+  id: FoldableLightPost
+  parent: [BaseItem, FlashlightLantern]
+  name: foldapbe light post
+  description: Gudies you trough the abyss of darkness!
+  components:
+    - type: Item
+      storedRotation: -90
+      size: Large
+      shape:
+      - 0,0,2,2
+      state: post-folded
+    - type: Sprite
+      sprite: Imperial/DeadSector/location_objects/foldable_light_post.rsi
+      noRot: true
+      layers:
+      - state: post-off
+        map: ["unfoldedLayer"]
+      - state: post-folded
+        map: ["foldedLayer"]
+        visible: false
+      - state: post-on
+        map: ["light"]
+        visible: false
+    - type: Rotatable
+    - type: MovedByPressure
+    - type: DamageOnHighSpeedImpact
+      soundHit:
+        collection: MetalThud
+    - type: InteractionOutline
+    - type: Physics
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.35
+          density: 190
+          mask:
+          - MobMask
+    - type: Damageable
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 78
+          behaviors:
+            - !type:DoActsBehavior
+              acts: ["Destruction"]
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Pullable
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.FoldedVisuals.State:
+          foldedLayer:
+            True: {visible: true}
+            False: {visible: false}
+          unfoldedLayer:
+            True: {visible: false}
+            False: {visible: true}
+          light:
+            True: {visible: false}
+            False: {visible: true}
+
+- type: entity
+  id: ElysiumPrimeTable
+  parent: BaseStructure
+  name: Elysium Prime table
+  description: A square piece of metal standing on four metal legs. Extra robust.
+  placement:
+    mode: AlignTileAny
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/location_objects/ElysiumPrimeTable.rsi
+    state: screentable
+  - type: Icon
+    sprite: Imperial/DeadSector/location_objects/ElysiumPrimeTable.rsi
+    state: icon
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 125
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+          params:
+            volume: -6
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 2
+            max: 2
+          CableApcStack10:
+            min: 1
+            max: 1
+          ShardGlassReinforced:
+            min: 2
+            max: 3
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Climbable
+  - type: Appearance

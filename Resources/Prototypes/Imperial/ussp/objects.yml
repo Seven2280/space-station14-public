@@ -1,0 +1,123 @@
+- type: entity
+  parent: BaseComputer
+  id: USSPCommsComputer
+  name: communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: error
+  - type: AccessReader
+    access: [[ "Merc" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-IMPERIALSSSP
+    color: "#db4c3c"
+    canShuttle: false
+    global: true #announce to everyone they're about to fuck shit up
+    sound: /Audio/Imperial/ussp/war.ogg
+  - type: DeviceNetwork
+    transmitFrequencyId: ShuttleTimer
+  - type: ActivatableUI
+    key: enum.CommunicationsConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+    - key: enum.CommunicationsConsoleUiKey.Key
+      type: CommunicationsConsoleBoundUserInterface
+  - type: Computer
+    board: CommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: StrongMetallic
+
+- type: entity
+  parent: CrateBaseSecure
+  id: USSPCrateSecure
+  name: secure weapon crate
+  components:
+  - type: Icon
+    sprite: Imperial/ussp/crate.rsi
+  - type: Sprite
+    sprite: Imperial/ussp/crate.rsi
+  - type: AccessReader
+    access: [["Merc"]]
+
+- type: entity
+  id: USSPlockerSecure
+  parent: LockerBase
+  name: coroner locker
+  description: le morgue.
+  components:
+  - type: Appearance
+  - type: Sprite
+    noRot: true
+    sprite: Imperial/ussp/locker.rsi
+    layers:
+    - state: generic
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: generic_door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: EntityStorageVisuals
+    stateBaseClosed: soldier
+    stateDoorOpen: soldier_open
+    stateDoorClosed: soldier_door
+  - type: AccessReader
+    access: [ [ "Merc" ] ]
+
+- type: entity
+  id: USSPStatue
+  parent: BaseStructure
+  name: Tomb of the Unknown Employee
+  description: lenin
+  components:
+    - type: Sprite
+      sprite: Imperial/ussp/lenin.rsi
+      state: memorial
+      drawdepth: Mobs
+      noRot: true
+      offset: "0.0,0.5"
+
+- type: entity
+  id: USSPStatue2
+  parent: BaseStructure
+  name: Tomb of the Unknown Employee
+  description: lenin
+  components:
+    - type: Sprite
+      sprite: Imperial/ussp/marx.rsi
+      state: memorial
+      drawdepth: Mobs
+      noRot: true
+      offset: "0.0,0.0"
+
+- type: entity
+  id: USSPsupplyPPSH
+  parent: USSPCrateSecure
+  name: USSPCrateSecure
+  description: 90 sheets of glass, packed with care.
+  components:
+  - type: StorageFill
+    contents:
+      - id: USSPppshMAG
+        amount: 20
+
+- type: entity
+  id: USSPsupplyRPK
+  parent: USSPCrateSecure
+  name: USSPCrateSecure
+  description: 90 sheets of glass, packed with care.
+  components:
+  - type: StorageFill
+    contents:
+      - id: USSPRPKMAG
+        amount: 18

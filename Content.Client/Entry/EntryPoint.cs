@@ -7,6 +7,7 @@ using Content.Client.Flash;
 using Content.Client.Fullscreen;
 using Content.Client.GhostKick;
 using Content.Client.Guidebook;
+using Content.Client.Imperial.ShowPopupOnJoin; // Imperial ShowPopupOnJoin
 using Content.Client.Info;
 using Content.Client.Input;
 using Content.Client.IoC;
@@ -73,6 +74,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly ContentReplayPlaybackManager _replayMan = default!;
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!; // Corvax-Sponsors
+        [Dependency] private readonly ShowPopupOnJoin _showPopupOnJoin = default!; // ImperiasSpace ShowPopupOnJoin
 
         public override void Init()
         {

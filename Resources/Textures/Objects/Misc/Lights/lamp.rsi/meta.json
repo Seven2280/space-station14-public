@@ -16,6 +16,12 @@
         "directions": 4
     },
     {
+        "name": "christmaslamp"
+    },
+    {
+        "name": "christmaslamp-on"
+    },
+    {
       "name": "off-inhand-left",
       "directions": 4
     },

@@ -6,7 +6,7 @@
   description: WeaponPistolASP-des
   productEntity: WeaponPistolASP
   cost:
-    FederationCash: 2000
+    FederationCash: 300
   categories:
   - FegerationTerminalWeapons
 
@@ -16,7 +16,17 @@
   description: WeaponPistolAstra60-des
   productEntity: WeaponPistolAstra60
   cost:
-    FederationCash: 2000
+    FederationCash: 350
+  categories:
+  - FegerationTerminalWeapons
+
+- type: listing
+  id: TerminalWeaponPistolAstra100
+  name: WeaponPistolAstra100-name
+  description: WeaponPistolAstra100-des
+  productEntity: WeaponPistolAstra100
+  cost:
+    FederationCash: 450
   categories:
   - FegerationTerminalWeapons
 
@@ -26,7 +36,7 @@
   description: WeaponRevolverAstra903-des
   productEntity: WeaponRevolverAstra903
   cost:
-    FederationCash: 2000
+    FederationCash: 500
   categories:
   - FegerationTerminalWeapons
 
@@ -36,7 +46,7 @@
   description: WeaponSubMachineGunAgram-des
   productEntity: WeaponSubMachineGunAgram
   cost:
-    FederationCash: 3500
+    FederationCash: 400
   categories:
   - FegerationTerminalWeapons
 
@@ -46,7 +56,7 @@
   description: WeaponFelixMP5-des
   productEntity: WeaponFelixMP5
   cost:
-    FederationCash: 3800
+    FederationCash: 400
   categories:
   - FegerationTerminalWeapons
 
@@ -56,7 +66,7 @@
   description: WeaponFelixMP9-des
   productEntity: WeaponFelixMP9
   cost:
-    FederationCash: 4400
+    FederationCash: 600
   categories:
   - FegerationTerminalWeapons
 
@@ -66,7 +76,7 @@
   description: WeaponRifleAR57-des
   productEntity: WeaponRifleAR57
   cost:
-    FederationCash: 4700
+    FederationCash: 1500
   categories:
   - FegerationTerminalWeapons
 
@@ -76,7 +86,7 @@
   description: WeaponFelixAR15-des
   productEntity: WeaponFelixAR15
   cost:
-    FederationCash: 5300
+    FederationCash: 2500
   categories:
   - FegerationTerminalWeapons
 
@@ -86,7 +96,7 @@
   description: WeaponFelixHK416-des
   productEntity: WeaponFelixHK416
   cost:
-    FederationCash: 5500
+    FederationCash: 3000
   categories:
   - FegerationTerminalWeapons
 
@@ -96,7 +106,7 @@
   description: WeaponFelixAK102-des
   productEntity: WeaponFelixAK102
   cost:
-    FederationCash: 5300
+    FederationCash: 2500
   categories:
   - FegerationTerminalWeapons
 
@@ -106,7 +116,7 @@
   description: WeaponFelixAKS74y-des
   productEntity: WeaponFelixAKS74y
   cost:
-    FederationCash: 4300
+    FederationCash: 1500
   categories:
   - FegerationTerminalWeapons
 
@@ -116,7 +126,7 @@
   description: WeaponFelixVSSMkI-des
   productEntity: WeaponFelixVSSMkI
   cost:
-    FederationCash: 6000
+    FederationCash: 4100
   categories:
   - FegerationTerminalWeapons
 
@@ -126,7 +136,7 @@
   description: WeaponFelixVSSMkII-des
   productEntity: WeaponFelixVSSMkII
   cost:
-    FederationCash: 7000
+    FederationCash: 4600
   categories:
   - FegerationTerminalWeapons
 
@@ -136,7 +146,7 @@
   description: WeaponFelixSVUMkI-des
   productEntity: WeaponFelixSVUMkI
   cost:
-    FederationCash: 6000
+    FederationCash: 3900
   categories:
   - FegerationTerminalWeapons
 
@@ -146,7 +156,7 @@
   description: WeaponSniperSVUMkII-des
   productEntity: WeaponSniperSVUMkII
   cost:
-    FederationCash: 7000
+    FederationCash: 4400
   categories:
   - FegerationTerminalWeapons
 
@@ -156,7 +166,7 @@
   description: WeaponSniperSVD-des
   productEntity: WeaponSniperSVD
   cost:
-    FederationCash: 7000
+    FederationCash: 5000
   categories:
   - FegerationTerminalWeapons
 
@@ -166,7 +176,7 @@
   description: WeaponLauncherRPG8-des
   productEntity: WeaponLauncherRPG8
   cost:
-    FederationCash: 15000
+    FederationCash: 3000
   categories:
   - FegerationTerminalWeapons
 
@@ -176,7 +186,7 @@
   description: WeaponAssaultPKM-des
   productEntity: WeaponAssaultPKM
   cost:
-    FederationCash: 15000
+    FederationCash: 3000
   categories:
   - FegerationTerminalWeapons
 
@@ -303,6 +313,16 @@
   - FegerationTerminalAmmo
 
 - type: listing
+  id: TerminalBaseMagazineMP5Mercury
+  name: BaseMagazineMP5Mercury-name
+  description: BaseMagazineMP5Mercury-des
+  productEntity: BaseMagazineMP5Mercury
+  cost:
+    FederationCash: 80
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
   id: TerminalMagazineMP9
   name: MagazineMP9-name
   description: MagazineMP9-des
@@ -319,6 +339,16 @@
   productEntity: MagazineArmorPiercingMP9
   cost:
     FederationCash: 100
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineMP9Mercury
+  name: BaseMagazineMP9Mercury-name
+  description: BaseMagazineMP9Mercury-des
+  productEntity: BaseMagazineMP9Mercury
+  cost:
+    FederationCash: 80
   categories:
   - FegerationTerminalAmmo
 
@@ -373,6 +403,36 @@
   - FegerationTerminalAmmo
 
 - type: listing
+  id: TerminalBaseMagazineAR15Piercing
+  name: BaseMagazineAR15Piercing-name
+  description: BaseMagazineAR15Piercing-des
+  productEntity: BaseMagazineAR15Piercing
+  cost:
+    FederationCash: 250
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAR15LongRange
+  name: BaseMagazineAR15LongRange-name
+  description: BaseMagazineAR15LongRange-des
+  productEntity: BaseMagazineAR15LongRange
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAR15Mercury
+  name: BaseMagazineAR15Mercury-name
+  description: BaseMagazineAR15Mercury-des
+  productEntity: BaseMagazineAR15Mercury
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
   id: TerminalMagazineHK416
   name: MagazineHK416-name
   description: MagazineHK416-des
@@ -388,6 +448,26 @@
   description: MagazineArmorPiercingHK416-des
   productEntity: MagazineArmorPiercingHK416
   cost:
+    FederationCash: 250
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineHK416LongRange
+  name: BaseMagazineHK416LongRange-name
+  description: BaseMagazineHK416LongRange-des
+  productEntity: BaseMagazineHK416LongRange
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineHK416Mercury
+  name: BaseMagazineHK416Mercury-name
+  description: BaseMagazineHK416Mercury-des
+  productEntity: BaseMagazineHK416Mercury
+  cost:
     FederationCash: 200
   categories:
   - FegerationTerminalAmmo
@@ -399,6 +479,36 @@
   productEntity: MagazineAK102
   cost:
     FederationCash: 100
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAK102Piercing
+  name: BaseMagazineAK102Piercing-name
+  description: BaseMagazineAK102Piercing-des
+  productEntity: BaseMagazineAK102Piercing
+  cost:
+    FederationCash: 250
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAK102LongRange
+  name: BaseMagazineAK102LongRange-name
+  description: BaseMagazineAK102LongRange-des
+  productEntity: BaseMagazineAK102LongRange
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAK102Mercury
+  name: BaseMagazineAK102Mercury-name
+  description: BaseMagazineAK102Mercury-des
+  productEntity: BaseMagazineAK102Mercury
+  cost:
+    FederationCash: 200
   categories:
   - FegerationTerminalAmmo
 
@@ -419,6 +529,26 @@
   productEntity: MagazineArmorPiercingAKS74y
   cost:
     FederationCash: 250
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAKS74yLongRange
+  name: BaseMagazineAKS74yLongRange-name
+  description: BaseMagazineAKS74yLongRange-des
+  productEntity: BaseMagazineAKS74yLongRange
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalBaseMagazineAKS74yMercury
+  name: BaseMagazineAKS74yMercury-name
+  description: BaseMagazineAKS74yMercury-des
+  productEntity: BaseMagazineAKS74yMercury
+  cost:
+    FederationCash: 200
   categories:
   - FegerationTerminalAmmo
 
@@ -623,62 +753,302 @@
   - FegerationTerminalAmmo
 
 - type: listing
-  id: TerminalMagazineVSSMkI
-  name: MagazineVSSMkI-name
-  description: MagazineVSSMkI-des
-  productEntity: MagazineVSSMkI
+  id: TerminalMagazineBoxSVUMkI
+  name: MagazineBoxSVUMkI-name
+  description: MagazineBoxSVUMkI-des
+  productEntity: MagazineBoxSVUMkI
   cost:
     FederationCash: 300
   categories:
   - FegerationTerminalAmmo
 
 - type: listing
-  id: TerminalMagazineArmorPiercingVSSMkI
-  name: MagazineArmorPiercingVSSMkI-name
-  description: MagazineArmorPiercingVSSMkI-des
-  productEntity: MagazineArmorPiercingVSSMkI
-  cost:
-    FederationCash: 600
-  categories:
-  - FegerationTerminalAmmo
-
-- type: listing
-  id: TerminalMagazineVSSMkII
-  name: MagazineVSSMkII-name
-  description: MagazineVSSMkII-des
-  productEntity: MagazineVSSMkII
-  cost:
-    FederationCash: 300
-  categories:
-  - FegerationTerminalAmmo
-
-- type: listing
-  id: TerminalMagazineArmorPiercingVSSMkII
-  name: MagazineArmorPiercingVSSMkII-name
-  description: MagazineArmorPiercingVSSMkII-des
-  productEntity: MagazineArmorPiercingVSSMkII
-  cost:
-    FederationCash: 600
-  categories:
-  - FegerationTerminalAmmo
-
-- type: listing
-  id: TerminalMagazineSVUMkI
-  name: MagazineSVUMkI-name
-  description: MagazineSVUMkI-des
-  productEntity: MagazineSVUMkI
+  id: TerminalMagazineBoxSVUMkIBig
+  name: MagazineBoxSVUMkIBig-name
+  description: MagazineBoxSVUMkIBig-des
+  productEntity: MagazineBoxSVUMkIBig
   cost:
     FederationCash: 500
   categories:
   - FegerationTerminalAmmo
 
 - type: listing
-  id: TerminalMagazineArmorPiercingSVUMkI
-  name: MagazineArmorPiercingSVUMkI-name
-  description: MagazineArmorPiercingSVUMkI-des
-  productEntity: MagazineArmorPiercingSVUMkI
+  id: TerminalMagazineBoxSVUMkIPiercing
+  name: MagazineBoxSVUMkIPiercing-name
+  description: MagazineBoxSVUMkIPiercing-des
+  productEntity: MagazineBoxSVUMkIPiercing
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkIPiercingBig
+  name: MagazineBoxSVUMkIPiercingBig-name
+  description: MagazineBoxSVUMkIPiercingBig-des
+  productEntity: MagazineBoxSVUMkIPiercingBig
   cost:
     FederationCash: 1500
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkILongRange
+  name: MagazineBoxSVUMkILongRange-name
+  description: MagazineBoxSVUMkILongRange-des
+  productEntity: MagazineBoxSVUMkILongRange
+  cost:
+    FederationCash: 400
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkILongRangeBig
+  name: MagazineBoxSVUMkILongRangeBig-name
+  description: MagazineBoxSVUMkILongRangeBig-des
+  productEntity: MagazineBoxSVUMkILongRangeBig
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkIExplosive
+  name: MagazineBoxSVUMkIExplosive-name
+  description: MagazineBoxSVUMkIExplosive-des
+  productEntity: MagazineBoxSVUMkIExplosive
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkIExplosiveBig
+  name: MagazineBoxSVUMkIExplosiveBig-name
+  description: MagazineBoxSVUMkIExplosiveBig-des
+  productEntity: MagazineBoxSVUMkIExplosiveBig
+  cost:
+    FederationCash: 1500
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkIMercury
+  name: MagazineBoxSVUMkIMercury-name
+  description: MagazineBoxSVUMkIMercury-des
+  productEntity: MagazineBoxSVUMkIMercury
+  cost:
+    FederationCash: 500
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxSVUMkIMercuryBig
+  name: MagazineBoxSVUMkIMercuryBig-name
+  description: MagazineBoxSVUMkIMercuryBig-des
+  productEntity: MagazineBoxSVUMkIMercuryBig
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkI
+  name: MagazineBoxVSSMkI-name
+  description: MagazineBoxVSSMkI-des
+  productEntity: MagazineBoxVSSMkI
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIBig
+  name: MagazineBoxVSSMkIBig-name
+  description: MagazineBoxVSSMkIBig-des
+  productEntity: MagazineBoxVSSMkIBig
+  cost:
+    FederationCash: 900
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIPiercing
+  name: MagazineBoxVSSMkIPiercing-name
+  description: MagazineBoxVSSMkIPiercing-des
+  productEntity: MagazineBoxVSSMkIPiercing
+  cost:
+    FederationCash: 800
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIPiercingBig
+  name: MagazineBoxVSSMkIPiercingBig-name
+  description: MagazineBoxVSSMkIPiercingBig-des
+  productEntity: MagazineBoxVSSMkIPiercingBig
+  cost:
+    FederationCash: 1100
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkILongRange
+  name: MagazineBoxVSSMkILongRange-name
+  description: MagazineBoxVSSMkILongRange-des
+  productEntity: MagazineBoxVSSMkILongRange
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkILongRangeBig
+  name: MagazineBoxVSSMkILongRangeBig-name
+  description: MagazineBoxVSSMkILongRangeBig-des
+  productEntity: MagazineBoxVSSMkILongRangeBig
+  cost:
+    FederationCash: 900
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIExplosive
+  name: MagazineBoxVSSMkIExplosive-name
+  description: MagazineBoxVSSMkIExplosive-des
+  productEntity: MagazineBoxVSSMkIExplosive
+  cost:
+    FederationCash: 700
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIExplosiveBig
+  name: MagazineBoxVSSMkIExplosiveBig-name
+  description: MagazineBoxVSSMkIExplosiveBig-des
+  productEntity: MagazineBoxVSSMkIExplosiveBig
+  cost:
+    FederationCash: 1000
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIMercury
+  name: MagazineBoxVSSMkIMercury-name
+  description: MagazineBoxVSSMkIMercury-des
+  productEntity: MagazineBoxVSSMkIMercury
+  cost:
+    FederationCash: 700
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIMercuryBig
+  name: MagazineBoxVSSMkIMercuryBig-name
+  description: MagazineBoxVSSMkIMercuryBig-des
+  productEntity: MagazineBoxVSSMkIMercuryBig
+  cost:
+    FederationCash: 1000
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkII
+  name: MagazineBoxVSSMkII-name
+  description: MagazineBoxVSSMkII-des
+  productEntity: MagazineBoxVSSMkII
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIBig
+  name: MagazineBoxVSSMkIIBig-name
+  description: MagazineBoxVSSMkIIBig-des
+  productEntity: MagazineBoxVSSMkIIBig
+  cost:
+    FederationCash: 900
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIPiercing
+  name: MagazineBoxVSSMkIIPiercing-name
+  description: MagazineBoxVSSMkIIPiercing-des
+  productEntity: MagazineBoxVSSMkIIPiercing
+  cost:
+    FederationCash: 800
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIPiercingBig
+  name: MagazineBoxVSSMkIIPiercingBig-name
+  description: MagazineBoxVSSMkIIPiercingBig-des
+  productEntity: MagazineBoxVSSMkIIPiercingBig
+  cost:
+    FederationCash: 1100
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIILongRange
+  name: MagazineBoxVSSMkIILongRange-name
+  description: MagazineBoxVSSMkIILongRange-des
+  productEntity: MagazineBoxVSSMkIILongRange
+  cost:
+    FederationCash: 600
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIILongRangeBig
+  name: MagazineBoxVSSMkIILongRangeBig-name
+  description: MagazineBoxVSSMkIILongRangeBig-des
+  productEntity: MagazineBoxVSSMkIILongRangeBig
+  cost:
+    FederationCash: 900
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIExplosive
+  name: MagazineBoxVSSMkIIExplosive-name
+  description: MagazineBoxVSSMkIIExplosive-des
+  productEntity: MagazineBoxVSSMkIIExplosive
+  cost:
+    FederationCash: 700
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIExplosiveBig
+  name: MagazineBoxVSSMkIIExplosiveBig-name
+  description: MagazineBoxVSSMkIIExplosiveBig-des
+  productEntity: MagazineBoxVSSMkIIExplosiveBig
+  cost:
+    FederationCash: 1000
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIMercury
+  name: MagazineBoxVSSMkIIMercury-name
+  description: MagazineBoxVSSMkIIMercury-des
+  productEntity: MagazineBoxVSSMkIIMercury
+  cost:
+    FederationCash: 700
+  categories:
+  - FegerationTerminalAmmo
+
+- type: listing
+  id: TerminalMagazineBoxVSSMkIIMercuryBig
+  name: MagazineBoxVSSMkIIMercuryBig-name
+  description: MagazineBoxVSSMkIIMercuryBig-des
+  productEntity: MagazineBoxVSSMkIIMercuryBig
+  cost:
+    FederationCash: 1000
   categories:
   - FegerationTerminalAmmo
 
@@ -1507,6 +1877,326 @@
 # FegerationTerminalMedicine
 
 - type: listing
+  id: TerminalSurgeryTourniquet
+  name: SurgeryTourniquet-name
+  description: SurgeryTourniquet-des
+  productEntity: SurgeryTourniquet
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalSurgerySplint
+  name: SurgerySplint-name
+  description: SurgerySplint-des
+  productEntity: SurgerySplint
+  cost:
+    FederationCash: 200
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBoxNitrileGloves
+  name: BoxNitrileGloves-name
+  description: BoxNitrileGloves-des
+  productEntity: BoxNitrileGloves
+  cost:
+    FederationCash: 50
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBoxLatexGloves
+  name: BoxLatexGloves-name
+  description: BoxLatexGloves-des
+  productEntity: BoxLatexGloves
+  cost:
+    FederationCash: 50
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalRetractor
+  name: Retractor-name
+  description: Retractor-des
+  productEntity: Retractor
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalSaw
+  name: Saw-name
+  description: Saw-des
+  productEntity: Saw
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalScalpel
+  name: Scalpel-name
+  description: Scalpel-des
+  productEntity: Scalpel
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalDrill
+  name: Drill-name
+  description: Drill-des
+  productEntity: Drill
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalCautery
+  name: Cautery-name
+  description: Cautery-des
+  productEntity: Cautery
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalHemostat
+  name: Hemostat-name
+  description: Hemostat-des
+  productEntity: Hemostat
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalNitrousOxideTankFilled
+  name: NitrousOxideTankFilled-name
+  description: NitrousOxideTankFilled-des
+  productEntity: NitrousOxideTankFilled
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBoneGel
+  name: BoneGel-name
+  description: BoneGel-des
+  productEntity: BoneGel
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalOrganHealer
+  name: OrganHealer-name
+  description: OrganHealer-des
+  productEntity: OrganHealer
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBoneSetter
+  name: BoneSetter-name
+  description: BoneSetter-des
+  productEntity: BoneSetter
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalDNAInjector
+  name: DNAInjector-name
+  description: DNAInjector-des
+  productEntity: DNAInjector
+  cost:
+    FederationCash: 70
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalFixOVein
+  name: FixOVein-name
+  description: FixOVein-des
+  productEntity: FixOVein
+  cost:
+    FederationCash: 20
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalClothingMaskSterile
+  name: ClothingMaskSterile-name
+  description: ClothingMaskSterile-des
+  productEntity: ClothingMaskSterile
+  cost:
+    FederationCash: 15
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalClothingOuterSurgeonCoat
+  name: ClothingOuterSurgeonCoat-name
+  description: ClothingOuterSurgeonCoat-des
+  productEntity: ClothingOuterSurgeonCoat
+  cost:
+    FederationCash: 15
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalClothingHeadHatSurgeon
+  name: ClothingHeadHatSurgeon-name
+  description: ClothingHeadHatSurgeon-des
+  productEntity: ClothingHeadHatSurgeon
+  cost:
+    FederationCash: 15
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalRadAutoInjector
+  name: RadAutoInjector-name
+  description: RadAutoInjector-des
+  productEntity: RadAutoInjector
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalEmergencyMedipen
+  name: EmergencyMedipen-name
+  description: EmergencyMedipen-des
+  productEntity: EmergencyMedipen
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBrutepack
+  name: Brutepack-name
+  description: Brutepack-des
+  productEntity: Brutepack
+  cost:
+    FederationCash: 25
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalGauze
+  name: Gauze-name
+  description: Gauze-des
+  productEntity: Gauze
+  cost:
+    FederationCash: 25
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalAntiPoisonMedipen
+  name: AntiPoisonMedipen-name
+  description: AntiPoisonMedipen-des
+  productEntity: AntiPoisonMedipen
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalOintment
+  name: Ointment-name
+  description: Ointment-des
+  productEntity: Ointment
+  cost:
+    FederationCash: 25
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalCombatMedipen
+  name: CombatMedipen-name
+  description: CombatMedipen-des
+  productEntity: CombatMedipen
+  cost:
+    FederationCash: 350
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalStimpackMini
+  name: StimpackMini-name
+  description: StimpackMini-des
+  productEntity: StimpackMini
+  cost:
+    FederationCash: 350
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalStimpack
+  name: Stimpack-name
+  description: Stimpack-des
+  productEntity: Stimpack
+  cost:
+    FederationCash: 450
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalSpaceMedipen
+  name: SpaceMedipen-name
+  description: StimSpaceMedipenpack-des
+  productEntity: SpaceMedipen
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBurnAutoInjector
+  name: BurnAutoInjector-name
+  description: BurnAutoInjector-des
+  productEntity: BurnAutoInjector
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalBruteAutoInjector
+  name: BruteAutoInjector-name
+  description: BruteAutoInjector-des
+  productEntity: BruteAutoInjector
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
+  id: TerminalChemicalMedipen
+  name: ChemicalMedipen-name
+  description: ChemicalMedipen-des
+  productEntity: ChemicalMedipen
+  cost:
+    FederationCash: 150
+  categories:
+  - FegerationTerminalMedicine
+
+- type: listing
   id: TerminalDeadSectorTourniquet
   name: DeadSectorTourniquet-name
   description: DeadSectorTourniquet-des
@@ -1586,6 +2276,58 @@
   categories:
   - FegerationTerminalMedicine
 
+# FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalMeatCanDeadSector
+  name: MeatCanDeadSector-name
+  description: MeatCanDeadSector-des
+  productEntity: MeatCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalTomatoCanDeadSector
+  name: TomatoCanDeadSector-name
+  description: TomatoCanDeadSector-des
+  productEntity: TomatoCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalBeefCanDeadSector
+  name: BeefCanDeadSector-name
+  description: BeefCanDeadSector-des
+  productEntity: BeefCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalSardinesCanDeadSector
+  name: SardinesCanDeadSector-name
+  description: SardinesCanDeadSector-des
+  productEntity: SardinesCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
+- type: listing
+  id: TerminalPorkCanDeadSector
+  name: PorkCanDeadSector-name
+  description: PorkCanDeadSector-des
+  productEntity: PorkCanDeadSector
+  cost:
+    FederationCash: 60
+  categories:
+  - FegerationTerminalProvisions
+
 # FegerationTerminalOther
 
 - type: listing
@@ -1644,7 +2386,7 @@
   description: ClothingOuterHardsuitShadow-des
   productEntity: ClothingOuterHardsuitShadow
   cost:
-    FederationCash: 1500
+    FederationCash: 16500
   categories:
   - FegerationTerminalOther
 
@@ -1654,7 +2396,7 @@
   description: ClothingOuterHardsuitBZSKMkI-des
   productEntity: ClothingOuterHardsuitBZSKMkI
   cost:
-    FederationCash: 1500
+    FederationCash: 11500
   categories:
   - FegerationTerminalOther
 
@@ -1675,5 +2417,15 @@
   productEntity: ClothingHeadHelmetHardsuitBZSKMkI
   cost:
     FederationCash: 500
+  categories:
+  - FegerationTerminalOther
+
+- type: listing
+  id: TerminalRedGasolineGenerator
+  name: RedGasolineGenerator-name
+  description: RedGasolineGenerator-des
+  productEntity: RedGasolineGenerator
+  cost:
+    FederationCash: 150
   categories:
   - FegerationTerminalOther

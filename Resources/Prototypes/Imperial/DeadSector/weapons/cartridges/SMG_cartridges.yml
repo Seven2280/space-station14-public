@@ -89,3 +89,31 @@
   components:
   - type: CartridgeAmmo
     proto: BulletArmorPiercingSubmachine
+
+- type: entity
+  id: BaseCartridgeSubmachineMercury
+  name: cartridge (9x21 M)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeFelixSubmachine
+  - type: CartridgeAmmo
+    proto: SubmachineBulletMercury
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: CartridgeSubmachineMercury
+  name: cartridge (9x21 M)
+  parent: BaseCartridgeSubmachineMercury
+  components:
+  - type: CartridgeAmmo
+    proto: SubmachineBulletMercury

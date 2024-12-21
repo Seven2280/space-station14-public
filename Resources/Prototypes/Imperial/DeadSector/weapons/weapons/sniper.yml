@@ -1,4 +1,45 @@
 - type: entity
+  name: SVU Mk-I
+  parent: BaseItem
+  id: WeaponFelixSVUMkI
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/SVUMkI.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,2
+  - type: Clothing
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/SVUMkI.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.75
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+      params:
+        volume: -15
+  - type: BallisticAmmoProvider
+    capacity: 16
+    proto: CartridgeSniperSVUMkI
+    whitelist:
+      tags:
+      - CartridgeFelixSniperSVUMkI
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
   name: SVU Mk II
   parent: BaseItem
   id: WeaponSniperSVUMkII
@@ -75,6 +116,90 @@
     whitelist:
       tags:
       - CartridgeSVD
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
+  name: VSS Mk-I
+  parent: BaseItem
+  id: WeaponFelixVSSMkI
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/VSSMkI.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,2
+  - type: Clothing
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/VSSMkI.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.75
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+      params:
+        volume: -15
+  - type: BallisticAmmoProvider
+    capacity: 16
+    proto: CartridgeSniperVSSMkI
+    whitelist:
+      tags:
+      - CartridgeFelixSniperVSSMkI
+      - CartridgeFelixSniperVSS
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
+  name: VSS Mk-II
+  parent: BaseItem
+  id: WeaponFelixVSSMkII
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/VSSMkII.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,2
+  - type: Clothing
+    sprite: Imperial/DeadSector/weapons/weapons/sniper/VSSMkII.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.75
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+      params:
+        volume: -15
+  - type: BallisticAmmoProvider
+    capacity: 16
+    proto: CartridgeSniperVSSMkII
+    whitelist:
+      tags:
+      - CartridgeFelixSniperVSSMkII
+      - CartridgeFelixSniperVSS
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

@@ -17,7 +17,7 @@
   - type: StaticPrice
     price: 0
   - type: Stack
-    stackType: Credit
+    stackType: FederationCredit
     count: 1
     baseLayer: base
     layerStates:
@@ -48,6 +48,12 @@
   - type: Currency
     price:
       FederationCash: 1
+
+- type: stack
+  id: FederationCredit
+  name: federation credit
+  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
+  spawn: FederationCash1
 
 - type: entity
   parent: FederationCash1

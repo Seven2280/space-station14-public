@@ -1,0 +1,260 @@
+#окупком
+
+- type: entity
+  parent: ClothingNeckBase
+  id: USSPBattlecomCape
+  name: red-tie
+  description: A neosilk clip-on red tie.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/battlecomissar/comissarcape.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/battlecomissar/comissarcape.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: USSPBattlecomUniform
+  name: operative jumpsuit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/battlecomissar/comissaruniform.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/battlecomissar/comissaruniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPBattlecomHat
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/battlecomissar/comissar.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/battlecomissar/comissar.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPBattlecomVest
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/battlecomissar/comissarvest.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/battlecomissar/comissarvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+        Stamina: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+#агитком
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: USSPAgitcomUniform
+  name: operative jumpsuit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/agitcomissar/comissaruniform.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/agitcomissar/comissaruniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPAgitcomHat
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/agitcomissar/comissar.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/agitcomissar/comissar.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPAgitcomVest
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/agitcomissar/comissarvest.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/agitcomissar/comissarvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+        Stamina: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  name: head of security's rubber stamp
+  parent: RubberStampBase
+  id: USSPSTAMP
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: USSP-STAMP-NAME
+    stampedColor: "#cc0000"
+    stampState: "paper_stamp-hos"
+  - type: Sprite
+    sprite: Imperial/ussp/stamp.rsi
+    state: stamp-ussp 
+
+#кгб
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPKGBhat
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/kgb/comissar.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/kgb/comissar.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPKGBhat2
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/kgb/ushanka.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/kgb/ushanka.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPKGBvest
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/kgb/coat.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/kgb/coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+        Stamina: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade

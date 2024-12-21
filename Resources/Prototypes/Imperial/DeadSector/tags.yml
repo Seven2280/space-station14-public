@@ -77,16 +77,16 @@
   id: MagazineSVUMkI
 
 - type: Tag
-  id: CartridgeFelixRifleVSS
+  id: CartridgeFelixSniperVSS
 
 - type: Tag
-  id: CartridgeFelixRifleVSSMkI
+  id: CartridgeFelixSniperVSSMkI
 
 - type: Tag
-  id: CartridgeFelixRifleVSSMkII
+  id: CartridgeFelixSniperVSSMkII
 
 - type: Tag
-  id: CartridgeFelixRifleSVUMkI
+  id: CartridgeFelixSniperSVUMkI
 
 - type: Tag
   id: CartridgeFelixSubmachine

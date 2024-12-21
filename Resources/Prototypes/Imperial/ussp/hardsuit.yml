@@ -1,0 +1,251 @@
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: USSPHardsuitSoldierHelmet
+  name: brigmedic hardsuit helmet
+  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/soldierhelm.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/soldierhelm.rsi
+  - type: PointLight
+    color: "#ffeeb2"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: USSPHardsuitSoldier
+  name: brigmedic hardsuit
+  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/soldier.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/soldier.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+        Stamina: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: USSPHardsuitSoldierHelmet
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+
+#штурм
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: USSPHardsuitStormHelmet
+  name: brigmedic hardsuit helmet
+  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/divstormhelm.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/divstormhelm.rsi
+  - type: PointLight
+    color: "#4aeff4"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: USSPHardsuitStorm
+  name: brigmedic hardsuit
+  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/divstorm.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/divstorm.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.4
+        Radiation: 0.4
+        Caustic: 0.4
+        Stamina: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: USSPHardsuitStormHelmet
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+
+#гвардия
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: USSPHardsuitGuardHelmet
+  name: brigmedic hardsuit helmet
+  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/guardhelm.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/guardhelm.rsi
+  - type: PointLight
+    color: "#4aeff4"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: USSPHardsuitGuard
+  name: brigmedic hardsuit
+  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/guard.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/guard.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.4
+        Radiation: 0.4
+        Caustic: 0.4
+        Stamina: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: StealthClothing #костыли-костыли...
+    visibility: 1
+    toggleAction: USSPHandGunAction
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: USSPHardsuitGuardHelmet
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+
+#орл
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: USSPHardsuitRedHelmet
+  name: brigmedic hardsuit helmet
+  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/redhelm.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/redhelm.rsi
+  - type: PointLight
+    color: "#339900"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: USSPHardsuitRed
+  name: brigmedic hardsuit
+  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/hardsuits/red.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/hardsuits/red.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.2
+        Radiation: 0.2
+        Caustic: 0.2
+        Stamina: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: StealthClothing #костыли-костыли...
+    visibility: 1
+    toggleAction: USSPHandGunAction
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: USSPHardsuitRedHelmet
+  - type: ExplosionResistance
+    damageCoefficient: 0.2

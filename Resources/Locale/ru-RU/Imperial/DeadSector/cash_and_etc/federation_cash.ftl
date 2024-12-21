@@ -1,5 +1,9 @@
 ent-FederationCash = кредит Федерации
     .desc = На государственном логотипе кредита написано: "Федерация Elysium Prime".
+ent-FederationCredit = кредит Федерации
+    .desc = На государственном логотипе кредита написано: "Федерация Elysium Prime".
+ent-FederationCash1 = кредит Федерации
+    .desc = На государственном логотипе кредита написано: "Федерация Elysium Prime".
 ent-FederationCash10 = кредит Федерации
     .desc = На государственном логотипе кредита написано: "Федерация Elysium Prime".
 ent-FederationCash100 = кредит Федерации

@@ -1,0 +1,295 @@
+#солдат
+
+- type: entity
+  #noSpawn: true
+  id: USSPSoldierSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-SOLDIER-ROLE-NAME
+      description: USSP-SOLDIER-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPSoldierPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPSoldierSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPSoldierPreset
+      chance: 1
+
+#Солдат Сержант
+
+- type: entity
+  #noSpawn: true
+  id: USSPSoldierSergeantSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-SOLDIER-SERG-ROLE-NAME
+      description: USSP-SOLDIER-SERG-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPSoldierSergeantPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPSoldierSergeantSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPSoldierSergeantPreset
+      chance: 1
+
+#Штурмовик
+
+- type: entity
+  #noSpawn: true
+  id: USSPStormSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-STORM-ROLE-NAME
+      description: USSP-SOLDIER-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPStormPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPStormSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPStormPreset
+      chance: 1
+    
+#Штурм-сержант
+
+- type: entity
+  #noSpawn: true
+  id: USSPStormSergeantSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-STORM-SERG-ROLE-NAME
+      description: USSP-SOLDIER-SERG-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPStormSergeantPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPStormSergeantSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPStormSergeantPreset
+      chance: 1
+
+#Окупком
+
+- type: entity
+  #noSpawn: true
+  id: USSPOcupcomSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-OCUPCOM-ROLE-NAME
+      description: USSP-OCUPCOM-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPBattlecomPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPOcupcomSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPBattlecomPreset
+      chance: 1
+
+#гвардия
+
+- type: entity
+  #noSpawn: true
+  id: USSPGuardSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-GUARD-ROLE-NAME
+      description: USSP-GUARD-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPGuardPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPGuardSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPGuardPreset
+      chance: 1
+
+#агитком
+
+- type: entity
+  #noSpawn: true
+  id: USSPAgitcomSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-AGITCOM-ROLE-NAME
+      description: USSP-AGITCOM-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPAgitcomPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPAgitcomSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPAgitcomPreset
+      chance: 1
+
+#офицер
+
+- type: entity
+  #noSpawn: true
+  id: USSPofficerSpawnRole
+  name: ERT leader
+  suffix: EVA, Alter
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: USSP-OFFICER-ROLE-NAME
+      description: USSP-OFFICER-ROLE-DESC
+    - type: GhostRoleMobSpawner
+      prototype: USSPOfficerPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: USSPofficerSpawnNoRole
+  name: random artifact spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+    - type: RandomSpawner
+      prototypes:
+        - USSPOfficerPreset
+      chance: 1

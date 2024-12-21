@@ -185,6 +185,7 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+    - HidesHair
 
 - type: entity
   parent: ClothingHeadBase
@@ -316,6 +317,16 @@
   name: spacesuit of division Shadow helmet
   description: null
   components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.96
+        Heat: 0.9
+        Cold: 0.9
+        Shock: 0.9
+        Radiation: 0.7
+        Caustic: 0.9
   - type: Sprite
     sprite: Imperial/DeadSector/head/ClothingHeadHelmetHardsuitShadow.rsi
     layers:
@@ -383,6 +394,16 @@
   name: spacesuit BZSK Mk I
   description: null
   components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.93
+        Slash: 0.97
+        Heat: 0.93
+        Cold: 0.93
+        Shock: 0.93
+        Radiation: 0.84
+        Caustic: 0.93
   - type: Sprite
     sprite: Imperial/DeadSector/head/ClothingHeadHelmetHardsuitBZSKMkI.rsi
     layers:
@@ -423,11 +444,6 @@
         isLooped: true
   - type: ToggleableLightVisuals
     spriteLayer: light
-    inhandVisuals:
-      left:
-      - state: on-inhand-left
-      right:
-      - state: on-inhand-right
     clothingVisuals:
       head:
       - state: on-equipped-HELMET

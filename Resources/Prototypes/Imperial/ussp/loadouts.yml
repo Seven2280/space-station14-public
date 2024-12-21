@@ -1,0 +1,133 @@
+- type: startingGear
+  id: USSPJosephGear
+  equipment:
+    head: USSPAgitcomHat
+
+
+- type: startingGear
+  id: USSPSoldiergear
+  equipment:
+    jumpsuit: USSPSoldierUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: USSPSoldierBoots
+    neck: USSPArmbandRed
+    head: USSPSoldierUshanka
+    eyes: USSPGlassesWar
+    gloves: USSPRedGloves
+    outerClothing: USSPSoldierCoat
+    ears: ClothingHeadsetSSSP
+    belt: ClothingBeltStorageWaistbag
+    id: USSPPDA
+
+- type: startingGear
+  id: USSPSoldierSergeantGear
+  equipment:
+    jumpsuit: USSPSoldierUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: USSPSoldierBoots
+    neck: USSPArmbandRed
+    head: USSPSoldierBeret
+    eyes: USSPGlassesWar
+    gloves: USSPRedGloves
+    outerClothing: USSPSoldierCoat
+    ears: ClothingHeadsetSSSP
+    belt: ClothingBeltStorageWaistbag
+    id: USSPPDASergeant
+
+- type: startingGear
+  id: USSPStormGear
+  equipment:
+    jumpsuit: USSPstormdivisionUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: USSPstormdivisionBoots
+    neck: USSPArmbandBlu
+    head: USSPstormdivisionUshanka
+    mask: USSPstormdivisionMask
+    eyes: USSPGlassesWar
+    gloves: USSPstormdivisionGloves
+    outerClothing: USSPstormdivisionCoat
+    ears: ClothingHeadsetSSSP
+    belt: USSPBeltAssault
+    id: USSPPDA
+
+- type: startingGear
+  id: USSPStormSergeantGear
+  equipment:
+    jumpsuit: USSPstormdivisionUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: USSPstormdivisionBoots
+    neck: USSPArmbandBlu
+    head: USSPstormdivisionBeret
+    mask: USSPstormdivisionMask
+    eyes: USSPGlassesWar
+    gloves: USSPstormdivisionGloves
+    outerClothing: USSPstormdivisionCoat
+    ears: ClothingHeadsetSSSP
+    belt: USSPBeltAssault
+    id: USSPPDASergeant
+
+- type: startingGear
+  id: USSPGuardsmenGear
+  equipment:
+    jumpsuit: USSPguardsmenUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    neck: USSPArmbandEng
+    head: USSPguardsmenBeret
+    mask: ClothingMaskGasSwat
+    eyes: USSPGlassesWar
+    gloves: USSPRedGloves
+    ears: ClothingHeadsetSSSP
+    belt: WeaponPistolAstra100
+    pocket1: BaseMagazineAstra100
+    pocket2: BaseMagazineAstra100
+    id: USSPPDA
+
+#комиссары и другие важные бумажные
+
+- type: startingGear
+  id: USSPBattlecomGear
+  equipment:
+    jumpsuit: USSPBattlecomUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    neck: USSPBattlecomCape
+    head: USSPBattlecomHat
+    outerClothing: USSPBattlecomVest
+    mask: ClothingMaskGasCentcom
+    eyes: USSPGlassesWar
+    gloves: USSPRedGloves
+    ears: ClothingHeadsetSSSP
+    belt: USSPComissarRevolver
+    id: USSPPDAComissar
+
+- type: startingGear
+  id: USSPAgitcomGear
+  equipment:
+    jumpsuit: USSPAgitcomUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsLaceup
+    neck: ClothingNeckSecuritymedal
+    head: USSPAgitcomHat
+    outerClothing: USSPAgitcomVest
+    mask: ClothingMaskGasSwat
+    eyes: USSPGlassesWar
+    gloves: USSPRedGloves
+    ears: ClothingHeadsetSSSP
+    belt: USSPComissarRevolver
+    id: USSPPDAComissar
+
+- type: startingGear
+  id: USSPKGBofcGear
+  equipment:
+    jumpsuit: USSPstormdivisionUniform
+    back: ClothingBackpackSatchelLeather
+    shoes: ClothingShoesBootsJack
+    head: USSPKGBhat
+    outerClothing: USSPKGBvest
+    mask: USSPstormdivisionMask
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: USSPstormdivisionGloves
+    ears: ClothingHeadsetSSSP
+    belt: USSPBeltAssault
+    id: USSPoficerPDA

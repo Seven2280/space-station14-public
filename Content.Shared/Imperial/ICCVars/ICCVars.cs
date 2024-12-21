@@ -6,7 +6,19 @@ namespace Content.Shared.Imperial.ICCVar;
 // ReSharper disable once InconsistentNaming
 public sealed class ICCVars
 {
-    /// Enables footprints
+    /// <summary>
+    /// Определяет, активна ли система ShowPopupOnJoin
+    /// </summary>
+    public static readonly CVarDef<bool>
+        ShowPopupOnJoinEnabled = CVarDef.Create("imperial.show_popup_on_join", false, CVar.SERVER | CVar.REPLICATED);
+
+    /// <summary>
+    /// Список названий popup-ов, которые необходимо отобразить игроку, разделённых через запятую
+    /// </summary>
+    public static readonly CVarDef<string>
+        PopupsOnJoinToShow = CVarDef.Create("imperial.show_popup_on_join_list", "", CVar.SERVER | CVar.REPLICATED);
+
+    /// Enables footprints 
     /// </summary>
     public static readonly CVarDef<bool>
         FootPrintsEnabled = CVarDef.Create("imperial.footprints_enabled", true, CVar.SERVERONLY);

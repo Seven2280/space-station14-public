@@ -50,14 +50,14 @@
   suffix: Felix
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Objects/Guns/Weapons/Felix/MP5.rsi
+    sprite: Imperial/DeadSector/weapons/weapons/SMG/MP5.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Imperial/Entities/Objects/Guns/Weapons/Felix/MP5.rsi
+    sprite: Imperial/DeadSector/weapons/weapons/SMG/MP5.rsi
     quickEquip: false
     slots:
     - Back
@@ -107,14 +107,14 @@
   suffix: Felix
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Objects/Guns/Weapons/Felix/MP9.rsi
+    sprite: Imperial/DeadSector/weapons/weapons/SMG/MP9.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Imperial/Entities/Objects/Guns/Weapons/Felix/MP9.rsi
+    sprite: Imperial/DeadSector/weapons/weapons/SMG/MP9.rsi
     quickEquip: false
     slots:
     - Back

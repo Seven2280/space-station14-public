@@ -1,0 +1,689 @@
+#общее
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPBattleIDcard
+  name: The Mercenary's ID Card
+  description: It looks unusual. Taken from military samples.
+  suffix: Vl, Arcane
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+    layers:
+    - state: Merc
+    - state: idcentcom
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+  - type: IdCard
+    jobTitle: Военный СССП
+    jobIcon: VlArcaneMercJobIcon
+  - type: Access
+    tags:
+    - Merc
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPofficerIDcard
+  name: The Mercenary's ID Card
+  description: It looks unusual. Taken from military samples.
+  suffix: Vl, Arcane
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+    layers:
+    - state: Merc
+    - state: idcentcom
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+  - type: IdCard
+    jobTitle: Офицер СССП
+    jobIcon: VlArcaneMercJobIcon
+  - type: Access
+    tags:
+    - Merc
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPComissarIDcard
+  name: The Mercenary's ID Card
+  description: It looks unusual. Taken from military samples.
+  suffix: Vl, Arcane
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+    layers:
+    - state: Merc
+    - state: idcentcom
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+  - type: IdCard
+    jobTitle: Комиссар СССП
+    jobIcon: VlArcaneMercJobIcon
+  - type: Access
+    tags:
+    - Merc
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPSergeantIDcard
+  name: The Mercenary's ID Card
+  description: It looks unusual. Taken from military samples.
+  suffix: Vl, Arcane
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+    layers:
+    - state: Merc
+    - state: idcentcom
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Imperial/ArcaneStation/Merc/Card.rsi
+  - type: IdCard
+    jobTitle: Cержант СССП
+    jobIcon: VlArcaneMercJobIcon
+  - type: Access
+    tags:
+    - Merc
+
+- type: entity
+  id: USSPComissarWeaponizer
+  parent: ClothingBeltHolster
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+        - id: WeaponRevolverAstra903
+        - id: SpeedLoaderAstra903Piercing
+        - id: SpeedLoaderAstra903Piercing
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: USSPBeltAssault
+  name: assault belt
+  description: A tactical assault belt.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/assault.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/assault.rsi
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+    sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
+
+- type: entity
+  parent: ClothingEyesBase
+  id: USSPGlassesWar
+  name: ninja visor
+  description: An advanced visor protecting a ninja's eyes from flashing lights.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingNeckBase
+  id: USSPArmbandRed
+  name: red-tie
+  description: A neosilk clip-on red tie.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/armbands/redband.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/armbands/redband.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingNeckBase
+  id: USSPArmbandBlu
+  name: red-tie
+  description: A neosilk clip-on red tie.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/armbands/bluband.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/armbands/bluband.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingNeckBase
+  id: USSPArmbandEng
+  name: red-tie
+  description: A neosilk clip-on red tie.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/armbands/yelband.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/armbands/yelband.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: USSPRedGloves
+  name: Soviet gloves
+  description: OUR.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/gloves.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: BasePDA
+  id: USSPoficerPDA
+  name: The Mercenary's PDA
+  suffix: Vl, Arcane
+  description: It looks more like a military computer. He's covered in scratches.
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Item
+    size: Small
+  - type: Pda
+    id: USSPofficerIDcard
+    state: pda-merc
+  - type: Icon
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    state: pda-merc
+  - type: PdaBorderColor
+    borderColor: "#597d5f"
+    accentHColor: "#3a5940"
+  - type: HealthAnalyzer
+    scanDelay: 5
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: BasePDA
+  id: USSPPDA
+  name: The Mercenary's PDA
+  suffix: Vl, Arcane
+  description: It looks more like a military computer. He's covered in scratches.
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Item
+    size: Small
+  - type: Pda
+    id: USSPBattleIDcard
+    state: pda-merc
+  - type: Icon
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    state: pda-merc
+  - type: PdaBorderColor
+    borderColor: "#597d5f"
+    accentHColor: "#3a5940"
+  - type: HealthAnalyzer
+    scanDelay: 5
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: BasePDA
+  id: USSPPDAComissar
+  name: The Mercenary's PDA
+  suffix: Vl, Arcane
+  description: It looks more like a military computer. He's covered in scratches.
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Item
+    size: Small
+  - type: Pda
+    id: USSPComissarIDcard
+    state: pda-merc
+  - type: Icon
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    state: pda-merc
+  - type: PdaBorderColor
+    borderColor: "#597d5f"
+    accentHColor: "#3a5940"
+  - type: HealthAnalyzer
+    scanDelay: 5
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: BasePDA
+  id: USSPPDASergeant
+  name: The Mercenary's PDA
+  suffix: Vl, Arcane
+  description: It looks more like a military computer. He's covered in scratches.
+  components:
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Item
+    size: Small
+  - type: Pda
+    id: USSPSergeantIDcard
+    state: pda-merc
+  - type: Icon
+    sprite: Imperial/ArcaneStation/Merc/PDA.rsi
+    state: pda-merc
+  - type: PdaBorderColor
+    borderColor: "#597d5f"
+    accentHColor: "#3a5940"
+  - type: HealthAnalyzer
+    scanDelay: 5
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+#базовые сольдатен
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: USSPSoldierBoots
+  name: jackboots
+  description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/boots.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/boots.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: USSPSoldierUniform
+  name: operative jumpsuit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/uniform.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/uniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPSoldierUshanka
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/ushanka.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/ushanka.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPSoldierBeret
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/sergeantberet.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/sergeantberet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPSoldierCoat
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/soldier/coat.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/soldier/coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+        Stamina: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+#дивизия "чторм"
+
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: USSPstormdivisionGloves
+  name: Soviet gloves
+  description: OUR.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/gloves.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 2000
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: USSPstormdivisionBoots
+  name: jackboots
+  description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/boots.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/boots.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: USSPstormdivisionUniform
+  name: operative jumpsuit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/uniform.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/uniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPstormdivisionUshanka
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/ushanka.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/ushanka.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPstormdivisionBeret
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/sergeantberet.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/sergeantberet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPstormdivisionCoat
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/stormdivision/coat.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/stormdivision/coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.75
+        Heat: 0.75
+        Stamina: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+
+- type: entity
+  parent: ClothingMaskGas
+  id: USSPstormdivisionMask
+  name: The mercenary's gas mask
+  suffix: Vl, Arcane
+  description: The usual gas mask of a mercenary. Apparently, it was stolen from some kind of military warehouse.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ArcaneStation/Merc/Mask.rsi
+  - type: Clothing
+    sprite: Imperial/ArcaneStation/Merc/Mask.rsi
+
+#гвардия авианосца
+
+- type: entity
+  parent: ClothingHeadBase
+  id: USSPguardsmenBeret
+  name: Helmet S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: Helmet of the elite security of the S-o.N.A. AI Dynamics Corporation.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Imperial/ussp/guardsmen/ushanka.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/guardsmen/ushanka.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: USSPguardsmenArmor
+  name: Body armor S-o.N.A
+  suffix: Vl, S-o.N.A
+  description: The bulletproof vest of S-o.N.A. AI Dynamics corporation, designed to bring maximum convenience to the wearer, also giving decent protection.
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+    sprite: Imperial/ussp/guardsmen/elitearmor.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/guardsmen/elitearmor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.55
+        Heat: 0.55
+        Stamina: 0.55
+  - type: ExplosionResistance
+    damageCoefficient: 0.55
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.85
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: USSPguardsmenUniform
+  name: operative jumpsuit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Imperial/ussp/guardsmen/uniform.rsi
+  - type: Clothing
+    sprite: Imperial/ussp/guardsmen/uniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade

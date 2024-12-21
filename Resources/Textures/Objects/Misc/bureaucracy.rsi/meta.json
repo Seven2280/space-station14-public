@@ -256,6 +256,15 @@
     },
     {
       "name": "stamp-coroner"
+    },
+    {
+      "name": "paper_stamp-research"
+    },
+    {
+      "name": "paper_stamp-federation"
+    },
+    {
+      "name": "paper_stamp-federation-military"
     }
   ]
 }

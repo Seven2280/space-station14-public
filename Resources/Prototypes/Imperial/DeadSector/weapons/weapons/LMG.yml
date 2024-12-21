@@ -15,13 +15,13 @@
     - Back
   - type: Wieldable
   - type: GunWieldBonus
-    minAngle: -15
-    maxAngle: -15
+    minAngle: -20
+    maxAngle: -20
   - type: Gun
     minAngle: 24
-    maxAngle: 38
-    angleIncrease: 3
-    angleDecay: 10
+    maxAngle: 45
+    angleIncrease: 4
+    angleDecay: 16
     fireRate: 8
     selectedMode: FullAuto
     availableModes:

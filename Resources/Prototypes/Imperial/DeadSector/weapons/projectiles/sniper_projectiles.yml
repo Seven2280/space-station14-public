@@ -157,3 +157,249 @@
     blockSlots: NONE
   - type: InjectableSolution
     solution: ammo
+
+- type: entity
+  id: BulletSniperVSSMkI
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 53.5
+
+- type: entity
+  id: BulletArmorPiercingSniperVSSMkI
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 32.1
+    ignoreResistances: true
+
+- type: entity
+  id: BulletLongRangeSniperVSSMkI
+  name: bullet SVD (7x62x39 T)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 30
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 53.5
+
+- type: entity
+  id: BulletExplosiveSniperVSSMkI
+  name: bullet SVD (7x62x39 ST)
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 48.5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 1
+    intensitySlope: 1
+    maxIntensity: 1
+
+- type: entity
+  id: BulletMercurySniperVSSMkI
+  name: bullet SVD (7x62x39 M)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 37.4
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        maxVol: 15
+        reagents:
+          - ReagentId: Mercury
+            Quantity: 8
+  - type: RefillableSolution
+    solution: ammo
+  - type: DrainableSolution
+    solution: ammo
+  - type: SolutionInjectOnCollide
+    transferAmount: 15
+    blockSlots: NONE
+  - type: InjectableSolution
+    solution: ammo
+
+- type: entity
+  id: BulletSniperVSSMkII
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 65.5
+
+- type: entity
+  id: BulletArmorPiercingSniperVSSMkII
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 39.3
+    ignoreResistances: true
+
+- type: entity
+  id: BulletLongRangeSniperVSSMkII
+  name: bullet SVD (7x62x39 T)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 30
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 65.5
+
+- type: entity
+  id: BulletExplosiveSniperVSSMkII
+  name: bullet SVD (7x62x39 ST)
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 60.5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 1
+    intensitySlope: 1
+    maxIntensity: 1
+
+- type: entity
+  id: BulletMercurySniperVSSMkII
+  name: bullet SVD (7x62x39 M)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 45.8
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        maxVol: 15
+        reagents:
+          - ReagentId: Mercury
+            Quantity: 9.8
+  - type: RefillableSolution
+    solution: ammo
+  - type: DrainableSolution
+    solution: ammo
+  - type: SolutionInjectOnCollide
+    transferAmount: 15
+    blockSlots: NONE
+  - type: InjectableSolution
+    solution: ammo
+
+- type: entity
+  id: BulletSniperSVUMkI
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50.5
+
+- type: entity
+  id: BulletArmorPiercingSniperSVUMkI
+  name: bullet (.35 MP-9)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30.3
+    ignoreResistances: true
+
+- type: entity
+  id: BulletLongRangeSniperSVUMkI
+  name: bullet SVD (7x62x39 T)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 30
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50.5
+
+- type: entity
+  id: BulletExplosiveSniperSVUMkI
+  name: bullet SVD (7x62x39 ST)
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 45.5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 1
+    intensitySlope: 1
+    maxIntensity: 1
+
+- type: entity
+  id: BulletMercurySniperSVUMkI
+  name: bullet SVD (7x62x39 M)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35.3
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        maxVol: 15
+        reagents:
+          - ReagentId: Mercury
+            Quantity: 7.5
+  - type: RefillableSolution
+    solution: ammo
+  - type: DrainableSolution
+    solution: ammo
+  - type: SolutionInjectOnCollide
+    transferAmount: 15
+    blockSlots: NONE
+  - type: InjectableSolution
+    solution: ammo

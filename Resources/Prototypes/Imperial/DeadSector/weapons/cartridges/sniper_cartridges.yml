@@ -277,3 +277,185 @@
   components:
   - type: CartridgeAmmo
     proto: BulletSVDMercury
+
+- type: entity
+  id: BaseCartridgeSniperVSSMkI
+  name: cartridge (.35 mp-9)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: CartridgeAmmo
+    proto: BulletSniperVSSMkI
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeFelixSniperVSS
+      - CartridgeFelixSniperVSSMkI
+
+- type: entity
+  id: CartridgeSniperVSSMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperVSSMkI
+
+- type: entity
+  id: CartridgeArmorPiercingSniperVSSMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletArmorPiercingSniperVSSMkI
+
+- type: entity
+  id: CartridgeLongRangeSniperVSSMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLongRangeSniperVSSMkI
+
+- type: entity
+  id: CartridgeExplosiveSniperVSSMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletExplosiveSniperVSSMkI
+
+- type: entity
+  id: CartridgeMercurySniperVSSMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMercurySniperVSSMkI
+
+- type: entity
+  id: BaseCartridgeSniperVSSMkII
+  name: cartridge (.35 mp-9)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: CartridgeAmmo
+    proto: BulletSniperVSSMkII
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeFelixSniperVSS
+      - CartridgeFelixSniperVSSMkII
+
+- type: entity
+  id: CartridgeSniperVSSMkII
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkII
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperVSSMkII
+
+- type: entity
+  id: CartridgeArmorPiercingSniperVSSMkII
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkII
+  components:
+  - type: CartridgeAmmo
+    proto: BulletArmorPiercingSniperVSSMkII
+
+- type: entity
+  id: CartridgeLongRangeSniperVSSMkII
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkII
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLongRangeSniperVSSMkII
+
+- type: entity
+  id: CartridgeExplosiveSniperVSSMkII
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkII
+  components:
+  - type: CartridgeAmmo
+    proto: BulletExplosiveSniperVSSMkII
+
+- type: entity
+  id: CartridgeMercurySniperVSSMkII
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperVSSMkII
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMercurySniperVSSMkII
+
+- type: entity
+  id: BaseCartridgeSniperSVUMkI
+  name: cartridge (.35 mp-9)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: CartridgeAmmo
+    proto: BulletSniperSVUMkI
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeFelixSniperSVUMkI
+
+- type: entity
+  id: CartridgeSniperSVUMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperSVUMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperSVUMkI
+
+- type: entity
+  id: CartridgeArmorPiercingSniperSVUMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperSVUMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletArmorPiercingSniperSVUMkI
+
+- type: entity
+  id: CartridgeLongRangeSniperSVUMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperSVUMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLongRangeSniperSVUMkI
+
+- type: entity
+  id: CartridgeExplosiveSniperSVUMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperSVUMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletExplosiveSniperSVUMkI
+
+- type: entity
+  id: CartridgeMercurySniperSVUMkI
+  name: cartridge (.35 MP-9)
+  parent: BaseCartridgeSniperSVUMkI
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMercurySniperSVUMkI

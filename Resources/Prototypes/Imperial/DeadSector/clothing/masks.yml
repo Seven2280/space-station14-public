@@ -6,9 +6,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100Y.rsi
+    sprite: Imperial/DeadSector/masks/G100Y.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100Y.rsi
+    sprite: Imperial/DeadSector/masks/G100Y.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 17
   - type: RadiationReceiver
@@ -25,9 +25,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100X.rsi
+    sprite: Imperial/DeadSector/masks/G100X.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100X.rsi
+    sprite: Imperial/DeadSector/masks/G100X.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 17
 
@@ -38,9 +38,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100G.rsi
+    sprite: Imperial/DeadSector/masks/G100G.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100G.rsi
+    sprite: Imperial/DeadSector/masks/G100G.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 17
 
@@ -51,9 +51,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100Y.rsi
+    sprite: Imperial/DeadSector/masks/G100Y.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/G100Y.rsi
+    sprite: Imperial/DeadSector/masks/G100Y.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 17
 
@@ -64,9 +64,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/GP7.rsi
+    sprite: Imperial/DeadSector/masks/GP7.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/GP7.rsi
+    sprite: Imperial/DeadSector/masks/GP7.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 37
 
@@ -77,9 +77,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/GP5.rsi
+    sprite: Imperial/DeadSector/masks/GP5.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/GP5.rsi
+    sprite: Imperial/DeadSector/masks/GP5.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 5
 
@@ -90,9 +90,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M50.rsi
+    sprite: Imperial/DeadSector/masks/M50.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M50.rsi
+    sprite: Imperial/DeadSector/masks/M50.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 85
 
@@ -103,9 +103,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M4.rsi
+    sprite: Imperial/DeadSector/masks/M4.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M4.rsi
+    sprite: Imperial/DeadSector/masks/M4.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 65
 
@@ -116,9 +116,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M2.rsi
+    sprite: Imperial/DeadSector/masks/M2.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M2.rsi
+    sprite: Imperial/DeadSector/masks/M2.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 3
   - type: ClothingSpeedModifier
@@ -132,9 +132,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M17A1G.rsi
+    sprite: Imperial/DeadSector/masks/M17A1G.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M17A1G.rsi
+    sprite: Imperial/DeadSector/masks/M17A1G.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 145
   - type: ClothingSpeedModifier
@@ -148,9 +148,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M17A1B.rsi
+    sprite: Imperial/DeadSector/masks/M17A1B.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/M17A1B.rsi
+    sprite: Imperial/DeadSector/masks/M17A1B.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 45
   - type: ClothingSpeedModifier
@@ -164,9 +164,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/FiltrationRespirator.rsi
+    sprite: Imperial/DeadSector/masks/FiltrationRespirator.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/FiltrationRespirator.rsi
+    sprite: Imperial/DeadSector/masks/FiltrationRespirator.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 5
   - type: ClothingSpeedModifier
@@ -180,9 +180,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/LMMS.rsi
+    sprite: Imperial/DeadSector/masks/LMMS.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/LMMS.rsi
+    sprite: Imperial/DeadSector/masks/LMMS.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 1.5
 
@@ -193,8 +193,8 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Imperial/Entities/Clothing/Masks/Felix/LMMY.rsi
+    sprite: Imperial/DeadSector/masks/LMMY.rsi
   - type: Clothing
-    sprite: Imperial/Entities/Clothing/Masks/Felix/LMMY.rsi
+    sprite: Imperial/DeadSector/masks/LMMY.rsi
   - type: GasMaskFullProtection
     tolerableRadiation: 1.5

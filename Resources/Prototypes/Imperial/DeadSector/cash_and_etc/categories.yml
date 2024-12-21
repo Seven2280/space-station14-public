@@ -44,6 +44,11 @@
   priority: 8
 
 - type: storeCategory
+  id: FegerationTerminalProvisions
+  name: FegerationTerminalProvisions
+  priority: 9
+
+- type: storeCategory
   id: FegerationTerminalOther
   name: FegerationTerminalOther
-  priority: 9
+  priority: 10
